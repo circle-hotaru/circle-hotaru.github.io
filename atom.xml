@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>circlehotarux&#39;s blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://circlehotarux.me/"/>
+  <updated>2020-05-14T02:49:36.818Z</updated>
+  <id>http://circlehotarux.me/</id>
+  
+  <author>
+    <name>circlehotarux</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于HZUCS_Course</title>
+    <link href="http://circlehotarux.me/2020/05/14/%E5%85%B3%E4%BA%8EHZUCS-Course/"/>
+    <id>http://circlehotarux.me/2020/05/14/%E5%85%B3%E4%BA%8EHZUCS-Course/</id>
+    <published>2020-05-14T02:43:52.000Z</published>
+    <updated>2020-05-14T02:49:36.818Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;github上新开了一个仓库，主要用来分享一些课程资料、作业等学生原创内容。&lt;/p&gt;
+&lt;p&gt;缘由：&lt;br&gt;一、前段时间电脑坏了，虽然之前有备份部分资料到移动硬盘，但很不幸移动硬盘落在学校了。所以这学期的一些资料都丢失了，幸运地是也有部分资料被我上传到github上了（数据备
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="CS" scheme="http://circlehotarux.me/tags/CS/"/>
+    
+      <category term="惠州学院" scheme="http://circlehotarux.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="github" scheme="http://circlehotarux.me/tags/github/"/>
+    
+      <category term="开源" scheme="http://circlehotarux.me/tags/%E5%BC%80%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>回归Hexo</title>
+    <link href="http://circlehotarux.me/2020/05/11/%E5%9B%9E%E5%BD%92Hexo/"/>
+    <id>http://circlehotarux.me/2020/05/11/%E5%9B%9E%E5%BD%92Hexo/</id>
+    <published>2020-05-11T13:32:54.000Z</published>
+    <updated>2020-05-11T13:40:58.456Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;技术是为人服务的&quot;&gt;&lt;a href=&quot;#技术是为人服务的&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="生活" scheme="http://circlehotarux.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>
