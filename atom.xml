@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-05-14T12:09:32.833Z</updated>
+  <updated>2020-05-15T02:55:21.969Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>超学习-学会抽象</title>
+    <link href="http://circlehotarux.me/2020/05/15/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E5%AD%A6%E4%BC%9A%E6%8A%BD%E8%B1%A1/"/>
+    <id>http://circlehotarux.me/2020/05/15/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E5%AD%A6%E4%BC%9A%E6%8A%BD%E8%B1%A1/</id>
+    <published>2020-05-15T02:25:57.000Z</published>
+    <updated>2020-05-15T02:55:21.969Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;大二有段时间在看Crash Course的&lt;a href=&quot;https://www.bilibili.com/video/BV1EW411u7th&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="超学习" scheme="http://circlehotarux.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="超学习" scheme="http://circlehotarux.me/tags/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>惠院学子如何申请学生邮箱</title>
@@ -67,9 +94,9 @@
     
     
     
-      <category term="CS" scheme="http://circlehotarux.me/tags/CS/"/>
-    
       <category term="惠州学院" scheme="http://circlehotarux.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="CS" scheme="http://circlehotarux.me/tags/CS/"/>
     
       <category term="github" scheme="http://circlehotarux.me/tags/github/"/>
     
