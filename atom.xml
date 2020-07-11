@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-07-11T13:56:18.386Z</updated>
+  <updated>2020-07-11T15:18:28.048Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bilibili评论转图片神器开发日志-JSZip使用</title>
+    <link href="http://circlehotarux.me/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-JSZip%E4%BD%BF%E7%94%A8/"/>
+    <id>http://circlehotarux.me/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-JSZip%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-07-11T15:11:13.000Z</published>
+    <updated>2020-07-11T15:18:28.048Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;最近在开发&lt;a href=&quot;tool.mightyherox.me&quot;&gt;Bilibili评论转图片神器&lt;/a&gt;，功能是将Bilibili视频评论区的评论转换成PNG图片。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开发这个工具的思路是使用&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="开发" scheme="http://circlehotarux.me/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
+    
+      <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
+    
+      <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
+    
+  </entry>
   
   <entry>
     <title>Bilibili评论转图片神器开发日志-html2canvas使用</title>
