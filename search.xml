@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>Bilibili评论转图片神器开发日志-html2canvas使用</title>
+      <link href="/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-html2canvas%E4%BD%BF%E7%94%A8/"/>
+      <url>/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-html2canvas%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>最近在开发<a href="tool.mightyherox.me">Bilibili评论转图片神器</a>，功能是将Bilibili视频评论区的评论转换成PNG图片。</p></blockquote><p>开发这个工具的思路是使用<a href="https://html2canvas.hertzen.com/" target="_blank" rel="noopener">html2canvas</a>将获取到的评论转成PNG图片，再通过<a href="https://stuk.github.io/jszip/" target="_blank" rel="noopener">JSZip</a>打包下载。</p><p><a href="https://html2canvas.hertzen.com/" target="_blank" rel="noopener">html2canvas</a>这个工具的使用挺简单的，官网也有示例。</p><p><img src="https://i.loli.net/2020/07/11/pc68nZG7IYkA4Qt.png" alt="html2canvas官网"></p><p>以下记录自己遇到的一些问题：</p><h2 id="图片空白？"><a href="#图片空白？" class="headerlink" title="图片空白？"></a>图片空白？</h2><p>我使用的是Vue，推测原因是DOM还没渲染完，html2canvas就开始转图片了。解决方法是使用nextTick，等DOM渲染完了再转图片。</p><blockquote><p>在created()钩子函数执行的时候DOM 其实并未进行任何渲染，而此时进行DOM操作无异于徒劳，所以此处一定要将DOM操作的js代码放进Vue.nextTick()的回调函数中。与之对应的就是mounted()钩子函数，因为该钩子函数执行时所有的DOM挂载和渲染都已完成，此时在该钩子函数中进行任何DOM操作都不会有问题 。<br><a href="https://juejin.im/post/5a6fdb846fb9a01cc0268618" target="_blank" rel="noopener">简单理解Vue中的nextTick</a></p></blockquote><h2 id="canvas中含有跨域图片，图片不显示？"><a href="#canvas中含有跨域图片，图片不显示？" class="headerlink" title="canvas中含有跨域图片，图片不显示？"></a>canvas中含有跨域图片，图片不显示？</h2><p>html2canvas默认不显示跨域图片，需要在配置中开启</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 允许跨域（图片相关）</span><br><span class="line">allowTaint: true,</span><br><span class="line">&#x2F;&#x2F; 允许跨域（图片相关）</span><br><span class="line">useCORS: true,</span><br></pre></td></tr></table></figure><h2 id="窗口有滚动，图片显示有偏差？"><a href="#窗口有滚动，图片显示有偏差？" class="headerlink" title="窗口有滚动，图片显示有偏差？"></a>窗口有滚动，图片显示有偏差？</h2><p>需要计算绘制元素的位置，具体代码如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">this.$nextTick(() &#x3D;&gt; &#123;</span><br><span class="line">    setTimeout(() &#x3D;&gt; &#123;</span><br><span class="line">        &#x2F;&#x2F; 获取需要绘制的元素</span><br><span class="line">        let comments &#x3D; this.$refs.comment;</span><br><span class="line">        for (let i &#x3D; 0; i &lt; comments.length; i++) &#123;</span><br><span class="line">            &#x2F;&#x2F; 评论内容做图片名</span><br><span class="line">            let imgName &#x3D; comments[i].innerText.split(&quot;\n&quot;)[1];</span><br><span class="line">            &#x2F;&#x2F; 返回元素的大小及其相对于视口的位置</span><br><span class="line">            let rect &#x3D; comments[i].getBoundingClientRect();</span><br><span class="line">            &#x2F;&#x2F; 不知为何rect.x返回的坐标不准确，需要加上8.5才行</span><br><span class="line">            rect.x +&#x3D; 8.5;</span><br><span class="line">            &#x2F;&#x2F; 获取滚动轴滚动的长度</span><br><span class="line">            let scrollTop &#x3D; document.documentElement.scrollTop || document.body.scrollTop</span><br><span class="line">            &#x2F;&#x2F; 获取dom 宽度</span><br><span class="line">            let width &#x3D; comments[i].offsetWidth</span><br><span class="line">            &#x2F;&#x2F; 获取dom 高度</span><br><span class="line">            let height &#x3D; comments[i].offsetHeight</span><br><span class="line">            html2canvas(comments[i], &#123;</span><br><span class="line">                &#x2F;&#x2F; 允许跨域（图片相关）</span><br><span class="line">                allowTaint: true,</span><br><span class="line">                &#x2F;&#x2F; 允许跨域（图片相关）</span><br><span class="line">                useCORS: true,</span><br><span class="line">                &#x2F;&#x2F; 截图的背景颜色</span><br><span class="line">                backgroundColor: &#39;transparent&#39;,</span><br><span class="line">                &#x2F;&#x2F; 图片x轴偏移量</span><br><span class="line">                x: rect.x,</span><br><span class="line">                &#x2F;&#x2F; 图片宽度</span><br><span class="line">                width: width,</span><br><span class="line">                &#x2F;&#x2F; 图片高度</span><br><span class="line">                height: height,</span><br><span class="line">                &#x2F;&#x2F; y轴滚动</span><br><span class="line">                scrollY: -scrollTop,</span><br><span class="line">                &#x2F;&#x2F; 放大2倍</span><br><span class="line">                scale: 2,</span><br><span class="line">                &#x2F;&#x2F; 关闭日志</span><br><span class="line">                logging: false,</span><br><span class="line">            &#125;).then(canvas &#x3D;&gt; &#123;</span><br><span class="line">                &#x2F;&#x2F; JSZip模块中的base64.js会对文件格式进行检测，所以我们需要将之前canvas.toDataURL()得到的data去除前缀imgData &#x3D; imgData.split(&quot;data:image&#x2F;png;base64,&quot;)[1];。</span><br><span class="line">                let imgData &#x3D; canvas.toDataURL().split(&#39;data:image&#x2F;png;base64,&#39;)[1];</span><br><span class="line">                &#x2F;&#x2F;这个images文件目录中创建一个base64数据为imgData的图像，图像名是上面获取的imaName</span><br><span class="line">                img.file(imgName + &#39;.png&#39;, imgData, &#123; base64: true &#125;);</span><br><span class="line">                that.done1 +&#x3D; 1;</span><br><span class="line">                console.log(&quot;添加图片&quot; + i);</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;;</span><br><span class="line">    &#125;, 1000);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Bilibili </tag>
+            
+            <tag> html2canvas </tag>
+            
+            <tag> Front-end </tag>
+            
+            <tag> 前端 </tag>
+            
+            <tag> Vue </tag>
+            
+            <tag> 跨域 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bilibili评论转图片神器开发日志-解决跨域问题</title>
       <link href="/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/"/>
       <url>/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
@@ -13,7 +48,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 开发 </category>
           
       </categories>
       
@@ -22,11 +57,11 @@
             
             <tag> Bilibili </tag>
             
-            <tag> 跨域 </tag>
-            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
+            
+            <tag> 跨域 </tag>
             
             <tag> Nodejs </tag>
             
