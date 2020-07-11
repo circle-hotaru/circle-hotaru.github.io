@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-06-21T01:32:00.859Z</updated>
+  <updated>2020-07-11T07:12:20.439Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bilibili评论转图片神器开发日志-解决跨域问题</title>
+    <link href="http://circlehotarux.me/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/"/>
+    <id>http://circlehotarux.me/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</id>
+    <published>2020-07-11T06:23:56.000Z</published>
+    <updated>2020-07-11T07:12:20.439Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;最近在开发&lt;a href=&quot;tool.mightyherox.me&quot;&gt;Bilibili评论转图片神器&lt;/a&gt;，功能是将Bilibili视频评论区的评论转换成PNG图片。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本来打算是做一个纯前端，通过&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://circlehotarux.me/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
+    
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
+      <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
+    
+      <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="Nodejs" scheme="http://circlehotarux.me/tags/Nodejs/"/>
+    
+      <category term="防盗链" scheme="http://circlehotarux.me/tags/%E9%98%B2%E7%9B%97%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>观看《隐姓亿万富翁》的收获</title>
