@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>人生苦短，及时行乐</title>
+      <link href="/2020/07/13/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/"/>
+      <url>/2020/07/13/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/</url>
+      
+        <content type="html"><![CDATA[<p>最近情绪不太稳定，有时候是积极的，有时候是消极的。还经常回忆过去，想着当时应该怎么怎么做才对。可惜呀~人生苦短，过去的事情无法改变了。而未来，似乎也没剩下多少时间。随着年龄的增长越来越觉得时间短暂了。也因为如此时常变得焦虑，总觉得要做的事情有很多，但是又不想去做，就这么拖着。</p><p>不应该这样吧？我应该变成一个积极乐观向上的人才对。</p><p>也可能是因为我所接触的人都没什么朝气？应该是有这部分影响的。昨天看油管上看了一个台湾油管主的视频感觉特别有活力啊。其实上学期教我们软件工程课程的台湾老师也很有活力，虽然看上去有50左右了吧，心态却跟20岁差不多。国外看到的很多视频主都很有活力，国内看到的大部分都很拘谨，虽然也有笑容，但看不出他们有活力，感觉被什么东西压着。</p><p>一直觉得互联网应该让人们变得更开放、更包容。但是国内互联网却把人极端化、偏见化，非黑即白。虽然生活中大部分人都是灰色的，但是一到网上，大家就不自觉地开始站队，要么支持这个，要么支持那个。</p><p>对了，傍晚约了个师妹拍照。好久没拍照了，拍照应该是我在大学做的最开心的事情了，可以预见许多人，可以收到许多人的赞美，可以改变自己的生活，这是一件正确而快乐的事情。</p><p>我要成为什么样的人呢？成为多度橙吧，做很多快乐的事情。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 碎碎念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bilibili评论转图片神器开发日志-CSS Variables使用</title>
       <link href="/2020/07/12/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/"/>
       <url>/2020/07/12/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/</url>
@@ -53,11 +80,11 @@
             
             <tag> Bilibili </tag>
             
+            <tag> JSZip </tag>
+            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
-            
-            <tag> JSZip </tag>
             
         </tags>
       
@@ -84,11 +111,11 @@
             
             <tag> Bilibili </tag>
             
-            <tag> html2canvas </tag>
-            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
+            
+            <tag> html2canvas </tag>
             
             <tag> Vue </tag>
             

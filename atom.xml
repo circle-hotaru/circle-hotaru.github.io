@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-07-12T03:00:41.093Z</updated>
+  <updated>2020-07-13T06:40:14.487Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人生苦短，及时行乐</title>
+    <link href="http://circlehotarux.me/2020/07/13/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/"/>
+    <id>http://circlehotarux.me/2020/07/13/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/</id>
+    <published>2020-07-13T06:15:26.000Z</published>
+    <updated>2020-07-13T06:40:14.487Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近情绪不太稳定，有时候是积极的，有时候是消极的。还经常回忆过去，想着当时应该怎么怎么做才对。可惜呀~人生苦短，过去的事情无法改变了。而未来，似乎也没剩下多少时间。随着年龄的增长越来越觉得时间短暂了。也因为如此时常变得焦虑，总觉得要做的事情有很多，但是又不想去做，就这么拖着
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://circlehotarux.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="http://circlehotarux.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="碎碎念" scheme="http://circlehotarux.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>Bilibili评论转图片神器开发日志-CSS Variables使用</title>
@@ -78,11 +107,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
+      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
+    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
     
   </entry>
   
@@ -114,11 +143,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
-      <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
-    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
     
