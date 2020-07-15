@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-07-13T06:40:14.487Z</updated>
+  <updated>2020-07-15T13:52:02.247Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript、ES6、TypeScript之间的关系</title>
+    <link href="http://circlehotarux.me/2020/07/15/JavaScript%E3%80%81ES6%E3%80%81TypeScript%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/"/>
+    <id>http://circlehotarux.me/2020/07/15/JavaScript%E3%80%81ES6%E3%80%81TypeScript%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</id>
+    <published>2020-07-15T13:16:39.000Z</published>
+    <updated>2020-07-15T13:52:02.247Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;今天复习前端三剑客之&lt;strong&gt;JavaScript&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;JavaScript和ES6&quot;&gt;&lt;a href=&quot;#JavaScript和ES6&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://circlehotarux.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="JavaScript" scheme="http://circlehotarux.me/tags/JavaScript/"/>
+    
+      <category term="ES6" scheme="http://circlehotarux.me/tags/ES6/"/>
+    
+      <category term="TypeScript" scheme="http://circlehotarux.me/tags/TypeScript/"/>
+    
+      <category term="Babel" scheme="http://circlehotarux.me/tags/Babel/"/>
+    
+  </entry>
   
   <entry>
     <title>人生苦短，及时行乐</title>
@@ -147,11 +183,11 @@
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
       <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
-    
-      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   

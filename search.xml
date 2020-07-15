@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>JavaScript、ES6、TypeScript之间的关系</title>
+      <link href="/2020/07/15/JavaScript%E3%80%81ES6%E3%80%81TypeScript%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/"/>
+      <url>/2020/07/15/JavaScript%E3%80%81ES6%E3%80%81TypeScript%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>今天复习前端三剑客之<strong>JavaScript</strong>。</p></blockquote><h2 id="JavaScript和ES6"><a href="#JavaScript和ES6" class="headerlink" title="JavaScript和ES6"></a>JavaScript和ES6</h2><p>JavaScript看了也挺多遍了，在学习过程中经常遇到ES6和TypeScript这些字眼。以前因为没接触过，所以不自觉地就觉得它们高深莫测，好像很难的样子。今天不知道看什么资料复习，找到了以前经常看的<a href="https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg" target="_blank" rel="noopener">小马技术频道</a>，里面刚好有讲ES6，遂把这个<a href="https://www.youtube.com/playlist?list=PLliocbKHJNwu150Kc7_eEywQBFLTJyPZs" target="_blank" rel="noopener">系列视频</a>看了一遍。视频不算多，一共就23个视频，每个视频大概五六分钟时长。看完后发现ES6的一些语法其实我之前也有接触过、使用过，只不过当时并不知道而已。</p><p>那么ES6和JavaScript之间到底有什么关系呢？根据个人理解，<strong>ES6是一个规范，而JavaScript是具体实现</strong>。当然除了ES6还有其他版本ES，只不过目前ES6较为流行和普适。</p><h2 id="JavaScript和TypeScript"><a href="#JavaScript和TypeScript" class="headerlink" title="JavaScript和TypeScript"></a>JavaScript和TypeScript</h2><p>那么<a href="https://www.typescriptlang.org/" target="_blank" rel="noopener">TypeScript</a>又是什么呢？<a href="https://www.youtube.com/channel/UCazV3A3_1-Mtd6E_auw_ifg" target="_blank" rel="noopener">小马技术频道</a>里也有一个TypeScript的<a href="https://www.youtube.com/playlist?list=PLliocbKHJNwtCfLQu5U3LF_AS-wuP6M7w" target="_blank" rel="noopener">系列视频</a>，不过目前还没看完。根据维基百科的介绍：</p><blockquote><p>TypeScript是一种开源的编程语言，该语言项目由微软进行维护和管理。TypeScript不仅包含JavaScript的语法，而且还提供了静态类型检查以及使用看起来像基于类的面向对象编程语法操作Prototype。</p></blockquote><p>大众说法说，TypeScript是JavaScript的超集。简单理解就是<strong>语法上合法的JavaScript，一定是合法的TypeScript。</strong></p><h3 id="如何使用TypeScript呢？"><a href="#如何使用TypeScript呢？" class="headerlink" title="如何使用TypeScript呢？"></a>如何使用TypeScript呢？</h3><p>在win10操作系统下，您可以通过<code>npm install -g typescript</code>进行安装，安装完成后使用<code>tsc -v</code>进行检查，若出现版本号则表示安装成功。</p><p>编写一个以<code>ts</code>为后缀的文件，接着使用<code>tsc ${fileName}.ts</code>进行编译，编译成功后就可以看到多出来一个<code>${fileName}.js</code>文件，直接运行<code>node ${fileName}.js</code>即可。</p><p>另外，学习JavaScript过程中也经常遇到<a href="https://babeljs.io/" target="_blank" rel="noopener">Babel</a>这个名词，通俗理解，Babel解决并不是所有浏览器都支持高版本JavaScript的问题。它可以将高版本JavaScript转变为低版本。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> ES6 </tag>
+            
+            <tag> TypeScript </tag>
+            
+            <tag> Babel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>人生苦短，及时行乐</title>
       <link href="/2020/07/13/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/"/>
       <url>/2020/07/13/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/</url>
@@ -115,11 +146,11 @@
             
             <tag> 前端 </tag>
             
+            <tag> 跨域 </tag>
+            
             <tag> html2canvas </tag>
             
             <tag> Vue </tag>
-            
-            <tag> 跨域 </tag>
             
         </tags>
       
