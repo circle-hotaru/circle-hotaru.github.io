@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-07-15T13:52:02.247Z</updated>
+  <updated>2020-07-19T02:13:16.083Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>不经意间的愤怒是可怕的</title>
+    <link href="http://circlehotarux.me/2020/07/19/%E4%B8%8D%E7%BB%8F%E6%84%8F%E9%97%B4%E7%9A%84%E6%84%A4%E6%80%92%E6%98%AF%E5%8F%AF%E6%80%95%E7%9A%84/"/>
+    <id>http://circlehotarux.me/2020/07/19/%E4%B8%8D%E7%BB%8F%E6%84%8F%E9%97%B4%E7%9A%84%E6%84%A4%E6%80%92%E6%98%AF%E5%8F%AF%E6%80%95%E7%9A%84/</id>
+    <published>2020-07-19T01:45:50.000Z</published>
+    <updated>2020-07-19T02:13:16.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://circlehotarux.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="情绪" scheme="http://circlehotarux.me/tags/%E6%83%85%E7%BB%AA/"/>
+    
+      <category term="家人" scheme="http://circlehotarux.me/tags/%E5%AE%B6%E4%BA%BA/"/>
+    
+      <category term="语言" scheme="http://circlehotarux.me/tags/%E8%AF%AD%E8%A8%80/"/>
+    
+      <category term="网络" scheme="http://circlehotarux.me/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript、ES6、TypeScript之间的关系</title>
@@ -183,11 +216,11 @@
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
       <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
-    
-      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   
