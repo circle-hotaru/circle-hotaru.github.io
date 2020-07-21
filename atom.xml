@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-07-19T02:13:16.083Z</updated>
+  <updated>2020-07-21T08:38:19.368Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>height: 100%无效？</title>
+    <link href="http://circlehotarux.me/2020/07/21/height-100-%E6%97%A0%E6%95%88%EF%BC%9F/"/>
+    <id>http://circlehotarux.me/2020/07/21/height-100-%E6%97%A0%E6%95%88%EF%BC%9F/</id>
+    <published>2020-07-21T08:15:57.000Z</published>
+    <updated>2020-07-21T08:38:19.368Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;昨晚在做一个小demo时想要实现水平垂直都居中的效果，使用flex布局，CSS样式如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://circlehotarux.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="CSS" scheme="http://circlehotarux.me/tags/CSS/"/>
+    
+      <category term="HTML" scheme="http://circlehotarux.me/tags/HTML/"/>
+    
+  </entry>
   
   <entry>
     <title>不经意间的愤怒是可怕的</title>
@@ -216,11 +246,11 @@
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
       <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
+    
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   
