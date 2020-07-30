@@ -206,11 +206,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
-      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
-    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
     
   </entry>
   
@@ -219,7 +219,7 @@
     <link href="http://circlehotarux.me/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-html2canvas%E4%BD%BF%E7%94%A8/"/>
     <id>http://circlehotarux.me/2020/07/11/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-html2canvas%E4%BD%BF%E7%94%A8/</id>
     <published>2020-07-11T13:05:39.000Z</published>
-    <updated>2020-07-11T13:59:58.562Z</updated>
+    <updated>2020-07-30T15:21:11.064Z</updated>
     
     <summary type="html">
     
@@ -242,6 +242,8 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
@@ -249,8 +251,6 @@
       <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
-    
-      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   
@@ -282,11 +282,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
       <category term="Nodejs" scheme="http://circlehotarux.me/tags/Nodejs/"/>
     
