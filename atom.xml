@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-08-10T08:52:20.998Z</updated>
+  <updated>2020-08-18T07:24:13.033Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对惯性思维的生活观察</title>
+    <link href="http://circlehotarux.me/2020/08/18/%E5%AF%B9%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4%E7%9A%84%E7%94%9F%E6%B4%BB%E8%A7%82%E5%AF%9F/"/>
+    <id>http://circlehotarux.me/2020/08/18/%E5%AF%B9%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4%E7%9A%84%E7%94%9F%E6%B4%BB%E8%A7%82%E5%AF%9F/</id>
+    <published>2020-08-18T07:22:04.000Z</published>
+    <updated>2020-08-18T07:24:13.033Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;昨天家里一楼电视坏了，今天把二楼的电视搬下去给爷爷奶奶看。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一楼的电视平时都是爷爷奶奶在看，看的是有线数字电视。二楼的电视平时不怎么看，所以就搬下去一楼顶着先。爷爷奶奶让我播珠江台，但是我不会设置有线数字电
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://circlehotarux.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="http://circlehotarux.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="惯性思维" scheme="http://circlehotarux.me/tags/%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>融入社会以及一些新发现</title>
@@ -271,11 +303,11 @@
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
       <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
+    
+      <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   
