@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://circlehotarux.me/"/>
-  <updated>2020-08-18T07:24:13.033Z</updated>
+  <updated>2020-08-20T14:42:57.215Z</updated>
   <id>http://circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在DigitalOcean创建你的第一台VPS</title>
+    <link href="http://circlehotarux.me/2020/08/20/How-to-create-your-first-VPS-on-DigitalOcean/"/>
+    <id>http://circlehotarux.me/2020/08/20/How-to-create-your-first-VPS-on-DigitalOcean/</id>
+    <published>2020-08-20T06:39:24.000Z</published>
+    <updated>2020-08-20T14:42:57.215Z</updated>
+    
+    <summary type="html">
+    
+      从零开始搭建你的DigitalOcean VPS
+    
+    </summary>
+    
+    
+      <category term="煮鸡" scheme="http://circlehotarux.me/categories/%E7%85%AE%E9%B8%A1/"/>
+    
+    
+      <category term="VPS" scheme="http://circlehotarux.me/tags/VPS/"/>
+    
+      <category term="DigitalOcean" scheme="http://circlehotarux.me/tags/DigitalOcean/"/>
+    
+      <category term="Linux" scheme="http://circlehotarux.me/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>对惯性思维的生活观察</title>
@@ -263,11 +288,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
+      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
+    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
     
   </entry>
   
@@ -299,11 +324,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
-      <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
-    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
     
