@@ -288,11 +288,11 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
+      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
+    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="JSZip" scheme="http://circlehotarux.me/tags/JSZip/"/>
     
   </entry>
   
@@ -324,15 +324,15 @@
     
       <category term="Bilibili" scheme="http://circlehotarux.me/tags/Bilibili/"/>
     
-      <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
-    
       <category term="Front-end" scheme="http://circlehotarux.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://circlehotarux.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
-    
       <category term="跨域" scheme="http://circlehotarux.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
+      <category term="html2canvas" scheme="http://circlehotarux.me/tags/html2canvas/"/>
+    
+      <category term="Vue" scheme="http://circlehotarux.me/tags/Vue/"/>
     
   </entry>
   
