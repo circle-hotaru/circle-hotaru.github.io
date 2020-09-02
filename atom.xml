@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-08-20T14:42:57.215Z</updated>
+  <updated>2020-09-02T13:55:28.605Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解锁HZU最佳学习方式</title>
+    <link href="http://mightyherox.me/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/"/>
+    <id>http://mightyherox.me/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/</id>
+    <published>2020-09-02T08:30:54.000Z</published>
+    <updated>2020-09-02T13:55:28.605Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="HZU" scheme="http://mightyherox.me/tags/HZU/"/>
+    
+      <category term="学习" scheme="http://mightyherox.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="远程桌面" scheme="http://mightyherox.me/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
+    
+      <category term="Windows" scheme="http://mightyherox.me/tags/Windows/"/>
+    
+      <category term="宿舍" scheme="http://mightyherox.me/tags/%E5%AE%BF%E8%88%8D/"/>
+    
+      <category term="图书馆" scheme="http://mightyherox.me/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/"/>
+    
+  </entry>
   
   <entry>
     <title>如何在DigitalOcean创建你的第一台VPS</title>

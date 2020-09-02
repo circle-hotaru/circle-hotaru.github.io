@@ -4,6 +4,43 @@
   
     
     <entry>
+      <title>解锁HZU最佳学习方式</title>
+      <link href="/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/"/>
+      <url>/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>都说大学里要想认真学习就不要待在宿舍，因此多仔我从大二开始就经常泡图书馆了（大一忙着在部门跳舞）。可是咱是软件工程专业的学生，每次去图书馆都要带着15.6寸超重的游戏本，难免有些费力。而且图书馆的插座并不多，去晚了就找不到插座了。游戏本的续航能力实在是不敢恭维。因此从大二开始就在寻找最佳的学习方式。</p><h2 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h2><h3 id="方式一：使用图书馆提供的电脑"><a href="#方式一：使用图书馆提供的电脑" class="headerlink" title="方式一：使用图书馆提供的电脑"></a>方式一：使用图书馆提供的电脑</h3><p>HZU每层图书馆都有提供电脑给学生免费使用，但是供不应求。</p><p>优点：解决了电脑问题，而且网速贼快。</p><p>缺点：电脑大多装有还原软件，即那种关机就会把你的资料删除。因此每次开机都要重新安装自己所需的软件、拉取资料，很麻烦。就算重启后资料仍在，你也不能保证每次都占到那台电脑。更何况把资料留在公共场所很危险。</p><h3 id="方式二：使用远程桌面"><a href="#方式二：使用远程桌面" class="headerlink" title="方式二：使用远程桌面"></a>方式二：使用远程桌面</h3><p>Windows电脑都自带远程桌面功能，一般是专业版才有。但是大多数学生购买笔电都是附赠家庭教育版。此时你有两种方法，一升级成专业版；二破解家庭教育版的远程桌面功能。咱经济比较紧张，选择了第二种方法。具体如何破解请自行搜索，咱提供一个<a href="https://zhuanlan.zhihu.com/p/109972051" target="_blank" rel="noopener">Win10（家庭版）内网穿透实现远程桌面访问 - 時雨的文章 - 知乎</a>。</p><p>破解完成后咱是很开心的，第一时间在Ipad上下载RD Client来远程我的笔电，结果当然是成功了啦。可是去到图书馆后发现死活连不上宿舍的笔电，这就尴尬了。按理来讲，图书馆和宿舍的校园网都应该是同一局域网，可以互连才对，而且宿舍里Ipad和笔电所连接的校园网是在不同子网内都可以远程成功。折腾了好久都没有搞定，最后只能搞个内网穿透来远程了。具体做法也是参考前面提到的那篇文章<a href="https://zhuanlan.zhihu.com/p/109972051" target="_blank" rel="noopener">Win10（家庭版）内网穿透实现远程桌面访问 - 時雨的文章 - 知乎</a>。</p><p>为什么不提TeamViewer之流，因为没用过。但是班上许多同学都是用TeamViewer，反映延迟略大，而且容易误判你在商用。而且原生的Windows远程不香么？</p><h3 id="方式三：利用图书馆的提供的电脑使用远程桌面！！！最佳！！！"><a href="#方式三：利用图书馆的提供的电脑使用远程桌面！！！最佳！！！" class="headerlink" title="方式三：利用图书馆的提供的电脑使用远程桌面！！！最佳！！！"></a>方式三：利用图书馆的提供的电脑使用远程桌面！！！最佳！！！</h3><p>前面提到咱已经实现了在图书馆用Ipad远程宿舍的笔电，但有个缺点就是Ipad的屏幕太小了！！！根本不够看啊。于是咱决定利用图书馆的提供的电脑使用远程桌面。惊喜的是，图书馆的电脑是Win7专业版，自带远程桌面（一开始咱还想着没有的话就帮它破解）。但是更惊喜的是直接进行远程桌面，不需要内网穿透也可以！！！牛逼！绝了！赶紧打开cmd查看这台电脑的IP。意外发现网络居然是无线连接的（之前一直以为是插网线的）。等等，无线……查看这个网络的属性，被我发现了图书馆馆内WIFI密码（前文提到的图书馆WIFI是指校园网，需要使用广东校园进行登录，太恶心了），果然知识就是力量啊。</p><p><img src="https://i.loli.net/2020/09/02/EMZaJ5HkWGiDvtY.jpg" alt="20200902-图书馆某电脑IP.jpg"></p><p><img src="https://i.loli.net/2020/09/02/IMkywrUGqv17ehS.jpg" alt="20200902-WIFI密码.jpg"></p><p><img src="https://i.loli.net/2020/09/02/czPRCy9Iks38dXT.jpg" alt="20200902-效果.jpg"></p><p>当然这种方法也是有缺点滴，就是要早起占电脑~早起的虫儿有鸟吃啊。另外多数电脑都是在靠门口位置，略吵。东座尤甚，图书馆管理员们欢乐的笑声……</p><p>另外在这台电脑桌面上看到一个Html文件，打开看到是一篇CSDN文章，介绍如何<em>将Linux(Ubuntu)安装到U盘上，实现即插即用）</em>，估计也有人懒得带电脑，只不过这太极客了，不适合普通人。</p><p><img src="https://i.loli.net/2020/09/02/XmeyEOIgvpNPqiD.jpg" alt="20200902-U盘安装Linux.jpg"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>懒惰推动进步，多仔真爱折腾~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 超学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 惠州学院 </tag>
+            
+            <tag> HZU </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 远程桌面 </tag>
+            
+            <tag> Windows </tag>
+            
+            <tag> 宿舍 </tag>
+            
+            <tag> 图书馆 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何在DigitalOcean创建你的第一台VPS</title>
       <link href="/How-to-create-your-first-VPS-on-DigitalOcean/"/>
       <url>/How-to-create-your-first-VPS-on-DigitalOcean/</url>
