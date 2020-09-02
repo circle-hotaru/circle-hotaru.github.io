@@ -165,6 +165,27 @@
   </url>
   
   <url>
+    <loc>http://mightyherox.me/tags/%E5%88%9B%E4%B8%9A/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mightyherox.me/tags/%E5%9B%A2%E9%98%9F/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mightyherox.me/tags/%E5%8A%B1%E5%BF%97/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mightyherox.me/tags/Bilibili/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
@@ -187,27 +208,6 @@
   
   <url>
     <loc>http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mightyherox.me/tags/%E5%88%9B%E4%B8%9A/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mightyherox.me/tags/%E5%9B%A2%E9%98%9F/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mightyherox.me/tags/%E5%8A%B1%E5%BF%97/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -298,13 +298,6 @@
   </url>
   
   <url>
-    <loc>http://mightyherox.me/tags/HTML/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://mightyherox.me/tags/JavaScript/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
@@ -327,6 +320,34 @@
   
   <url>
     <loc>http://mightyherox.me/tags/Babel/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mightyherox.me/tags/HTML/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mightyherox.me/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mightyherox.me/tags/%E6%8A%96%E9%9F%B3/</loc>
+    <lastmod>2020-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mightyherox.me/tags/%E7%A4%BE%E4%BA%A4/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -361,21 +382,21 @@
   </url>
   
   <url>
-    <loc>http://mightyherox.me/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/</loc>
+    <loc>http://mightyherox.me/tags/CS/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mightyherox.me/tags/%E6%8A%96%E9%9F%B3/</loc>
+    <loc>http://mightyherox.me/tags/github/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://mightyherox.me/tags/%E7%A4%BE%E4%BA%A4/</loc>
+    <loc>http://mightyherox.me/tags/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -418,27 +439,6 @@
   
   <url>
     <loc>http://mightyherox.me/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mightyherox.me/tags/CS/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mightyherox.me/tags/github/</loc>
-    <lastmod>2020-09-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mightyherox.me/tags/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
