@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-09-13T07:21:28.470Z</updated>
+  <updated>2020-09-17T14:37:26.209Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>maintain output and create value</title>
+    <link href="http://mightyherox.me/maintain-output-and-create-value/"/>
+    <id>http://mightyherox.me/maintain-output-and-create-value/</id>
+    <published>2020-09-17T14:07:46.000Z</published>
+    <updated>2020-09-17T14:37:26.209Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天下午一个师弟说他的老师在班上提到我了，并展示了我的Github。后来了解到是因为疫情期间我关注了他的码云&amp;amp;B站账号，然后他也发现了我的Github账号。可能是因为惠院玩Github的学生太少了吧（问了几个大三师弟都对Github没什么概念），所以给他留下了比较深
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="输出" scheme="http://mightyherox.me/tags/%E8%BE%93%E5%87%BA/"/>
+    
+      <category term="Github" scheme="http://mightyherox.me/tags/Github/"/>
+    
+      <category term="机会" scheme="http://mightyherox.me/tags/%E6%9C%BA%E4%BC%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>火车驶向云外 梦安魂于九霄</title>
