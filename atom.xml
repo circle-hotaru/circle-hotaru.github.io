@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-09-22T15:36:24.766Z</updated>
+  <updated>2020-09-23T08:55:31.120Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Splashtop Wired XDisplay让iPad做win10扩展屏</title>
+    <link href="http://mightyherox.me/%E4%BD%BF%E7%94%A8Splashtop-Wired-XDisplay%E8%AE%A9iPad%E5%81%9Awin10%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
+    <id>http://mightyherox.me/%E4%BD%BF%E7%94%A8Splashtop-Wired-XDisplay%E8%AE%A9iPad%E5%81%9Awin10%E6%89%A9%E5%B1%95%E5%B1%8F/</id>
+    <published>2020-09-23T08:04:35.000Z</published>
+    <updated>2020-09-23T08:55:31.120Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数码" scheme="http://mightyherox.me/categories/%E6%95%B0%E7%A0%81/"/>
+    
+    
+      <category term="iPad" scheme="http://mightyherox.me/tags/iPad/"/>
+    
+      <category term="win10" scheme="http://mightyherox.me/tags/win10/"/>
+    
+      <category term="笔记本" scheme="http://mightyherox.me/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
+    
+      <category term="Splashtop" scheme="http://mightyherox.me/tags/Splashtop/"/>
+    
+      <category term="扩展屏" scheme="http://mightyherox.me/tags/%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>我奋斗了18年才和你坐在一起喝咖啡</title>
@@ -357,7 +392,7 @@
     <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/"/>
     <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/</id>
     <published>2020-07-12T02:43:09.000Z</published>
-    <updated>2020-07-12T03:00:41.093Z</updated>
+    <updated>2020-09-23T00:58:23.821Z</updated>
     
     <summary type="html">
     
@@ -414,11 +449,11 @@
     
       <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
+      <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
+    
       <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
     
   </entry>
   
@@ -450,11 +485,11 @@
     
       <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
-      <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
-    
       <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
       <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
     
       <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
     
@@ -614,38 +649,6 @@
       <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
     
       <category term="学生" scheme="http://mightyherox.me/tags/%E5%AD%A6%E7%94%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于HZUCS_Course</title>
-    <link href="http://mightyherox.me/%E5%85%B3%E4%BA%8EHZUCS-Course/"/>
-    <id>http://mightyherox.me/%E5%85%B3%E4%BA%8EHZUCS-Course/</id>
-    <published>2020-05-14T02:43:52.000Z</published>
-    <updated>2020-05-14T02:49:36.818Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;github上新开了一个仓库，主要用来分享一些课程资料、作业等学生原创内容。&lt;/p&gt;
-&lt;p&gt;缘由：&lt;br&gt;一、前段时间电脑坏了，虽然之前有备份部分资料到移动硬盘，但很不幸移动硬盘落在学校了。所以这学期的一些资料都丢失了，幸运地是也有部分资料被我上传到github上了（数据备
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
-    
-      <category term="CS" scheme="http://mightyherox.me/tags/CS/"/>
-    
-      <category term="github" scheme="http://mightyherox.me/tags/github/"/>
-    
-      <category term="开源" scheme="http://mightyherox.me/tags/%E5%BC%80%E6%BA%90/"/>
     
   </entry>
   
