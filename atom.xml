@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>circlehotarux&#39;s blog</title>
   
-  <subtitle>有花堪折直须折，莫待无花空折枝</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <subtitle>有花堪折直須折 莫待無花空折枝</subtitle>
+  <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-09-23T08:55:31.120Z</updated>
+  <updated>2020-10-12T01:32:22.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -17,37 +17,66 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>反思-做事不够彻底导致失败</title>
+    <link href="http://mightyherox.me/%E5%8F%8D%E6%80%9D-%E5%81%9A%E4%BA%8B%E4%B8%8D%E5%A4%9F%E5%BD%BB%E5%BA%95%E5%AF%BC%E8%87%B4%E5%A4%B1%E8%B4%A5/"/>
+    <id>http://mightyherox.me/%E5%8F%8D%E6%80%9D-%E5%81%9A%E4%BA%8B%E4%B8%8D%E5%A4%9F%E5%BD%BB%E5%BA%95%E5%AF%BC%E8%87%B4%E5%A4%B1%E8%B4%A5/</id>
+    <published>2020-10-12T01:32:22.000Z</published>
+    <updated>2020-10-12T01:32:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今早看了艾尔文的一个视频&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="http://mightyherox.me/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="翻身" scheme="http://mightyherox.me/tags/%E7%BF%BB%E8%BA%AB/"/>
+    
+    <category term="机遇" scheme="http://mightyherox.me/tags/%E6%9C%BA%E9%81%87/"/>
+    
+    <category term="摄影" scheme="http://mightyherox.me/tags/%E6%91%84%E5%BD%B1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用Splashtop Wired XDisplay让iPad做win10扩展屏</title>
     <link href="http://mightyherox.me/%E4%BD%BF%E7%94%A8Splashtop-Wired-XDisplay%E8%AE%A9iPad%E5%81%9Awin10%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
     <id>http://mightyherox.me/%E4%BD%BF%E7%94%A8Splashtop-Wired-XDisplay%E8%AE%A9iPad%E5%81%9Awin10%E6%89%A9%E5%B1%95%E5%B1%8F/</id>
     <published>2020-09-23T08:04:35.000Z</published>
-    <updated>2020-09-23T08:55:31.120Z</updated>
+    <updated>2020-09-23T08:04:35.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
     
     
-      <category term="数码" scheme="http://mightyherox.me/categories/%E6%95%B0%E7%A0%81/"/>
+    <category term="数码" scheme="http://mightyherox.me/categories/%E6%95%B0%E7%A0%81/"/>
     
     
-      <category term="iPad" scheme="http://mightyherox.me/tags/iPad/"/>
+    <category term="iPad" scheme="http://mightyherox.me/tags/iPad/"/>
     
-      <category term="win10" scheme="http://mightyherox.me/tags/win10/"/>
+    <category term="win10" scheme="http://mightyherox.me/tags/win10/"/>
     
-      <category term="笔记本" scheme="http://mightyherox.me/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
+    <category term="笔记本" scheme="http://mightyherox.me/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
     
-      <category term="Splashtop" scheme="http://mightyherox.me/tags/Splashtop/"/>
+    <category term="Splashtop" scheme="http://mightyherox.me/tags/Splashtop/"/>
     
-      <category term="扩展屏" scheme="http://mightyherox.me/tags/%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
+    <category term="扩展屏" scheme="http://mightyherox.me/tags/%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
     
   </entry>
   
@@ -56,26 +85,24 @@
     <link href="http://mightyherox.me/%E6%88%91%E5%A5%8B%E6%96%97%E4%BA%8618%E5%B9%B4%E6%89%8D%E5%92%8C%E4%BD%A0%E5%9D%90%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%96%9D%E5%92%96%E5%95%A1/"/>
     <id>http://mightyherox.me/%E6%88%91%E5%A5%8B%E6%96%97%E4%BA%8618%E5%B9%B4%E6%89%8D%E5%92%8C%E4%BD%A0%E5%9D%90%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%96%9D%E5%92%96%E5%95%A1/</id>
     <published>2020-09-22T14:25:47.000Z</published>
-    <updated>2020-09-22T15:36:24.766Z</updated>
+    <updated>2020-09-22T14:25:47.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;今天在图书馆自习时，旁边来了一个女生想要使用图书馆的电脑。可是折腾了几次都没开机，然后问我怎么开机。当时感到很诧异，开机只需要按主机上的电源按钮即可，怎么会还有人不知道呢。然后突然回想起自己第一次接触电脑的情景。&lt;/p&gt;
-&lt;p&gt;我第一次接触电脑是在初中某个暑假的时候，我爸让
+    <summary type="html">&lt;p&gt;今天在图书馆自习时，旁边来了一个女生想要使用图书馆的电脑。可是折腾了几次都没开机，然后问我怎么开机。当时感到很诧异，开机只需要按主机上的电源按钮即可，怎么会还有人不知道呢。然后突然回想起自己第一次接触电脑的情景。&lt;/p&gt;
+&lt;p&gt;我第一次接触电脑是在初中某个暑假的时候，我爸让</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="阶层差距" scheme="http://mightyherox.me/tags/%E9%98%B6%E5%B1%82%E5%B7%AE%E8%B7%9D/"/>
+    <category term="阶层差距" scheme="http://mightyherox.me/tags/%E9%98%B6%E5%B1%82%E5%B7%AE%E8%B7%9D/"/>
     
   </entry>
   
@@ -84,29 +111,27 @@
     <link href="http://mightyherox.me/maintain-output-and-create-value/"/>
     <id>http://mightyherox.me/maintain-output-and-create-value/</id>
     <published>2020-09-17T14:07:46.000Z</published>
-    <updated>2020-09-17T14:37:26.209Z</updated>
+    <updated>2020-09-17T14:07:46.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;今天下午一个师弟说他的老师在班上提到我了，并展示了我的Github。后来了解到是因为疫情期间我关注了他的码云&amp;amp;B站账号，然后他也发现了我的Github账号。可能是因为惠院玩Github的学生太少了吧（问了几个大三师弟都对Github没什么概念），所以给他留下了比较深
+    <summary type="html">&lt;p&gt;今天下午一个师弟说他的老师在班上提到我了，并展示了我的Github。后来了解到是因为疫情期间我关注了他的码云&amp;amp;B站账号，然后他也发现了我的Github账号。可能是因为惠院玩Github的学生太少了吧（问了几个大三师弟都对Github没什么概念），所以给他留下了比较深</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="输出" scheme="http://mightyherox.me/tags/%E8%BE%93%E5%87%BA/"/>
+    <category term="输出" scheme="http://mightyherox.me/tags/%E8%BE%93%E5%87%BA/"/>
     
-      <category term="Github" scheme="http://mightyherox.me/tags/Github/"/>
+    <category term="Github" scheme="http://mightyherox.me/tags/Github/"/>
     
-      <category term="机会" scheme="http://mightyherox.me/tags/%E6%9C%BA%E4%BC%9A/"/>
+    <category term="机会" scheme="http://mightyherox.me/tags/%E6%9C%BA%E4%BC%9A/"/>
     
   </entry>
   
@@ -115,26 +140,24 @@
     <link href="http://mightyherox.me/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/"/>
     <id>http://mightyherox.me/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/</id>
     <published>2020-09-13T07:16:47.000Z</published>
-    <updated>2020-09-13T07:21:28.470Z</updated>
+    <updated>2020-09-13T07:16:47.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;前天考完计网和微机后，大学生活应该算告一段落了。虽然还有大四一年，但基本都不在学校生活，开始接触社会。&lt;/p&gt;
-&lt;p&gt;我最近过得怎样呢？应该说很迷茫吧。现在这个阶段大学生提及最多的就是考研、考公和工作的事情。我这个专业大部分学生都去实习了，不过自己的很多朋友都在准备考研或者
+    <summary type="html">&lt;p&gt;前天考完计网和微机后，大学生活应该算告一段落了。虽然还有大四一年，但基本都不在学校生活，开始接触社会。&lt;/p&gt;
+&lt;p&gt;我最近过得怎样呢？应该说很迷茫吧。现在这个阶段大学生提及最多的就是考研、考公和工作的事情。我这个专业大部分学生都去实习了，不过自己的很多朋友都在准备考研或者</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="大学" scheme="http://mightyherox.me/tags/%E5%A4%A7%E5%AD%A6/"/>
+    <category term="大学" scheme="http://mightyherox.me/tags/%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   
@@ -143,37 +166,35 @@
     <link href="http://mightyherox.me/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/"/>
     <id>http://mightyherox.me/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/</id>
     <published>2020-09-02T08:30:54.000Z</published>
-    <updated>2020-09-02T13:55:28.605Z</updated>
+    <updated>2020-09-02T08:30:54.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
     
     
-      <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
+    <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
     
-      <category term="HZU" scheme="http://mightyherox.me/tags/HZU/"/>
+    <category term="HZU" scheme="http://mightyherox.me/tags/HZU/"/>
     
-      <category term="学习" scheme="http://mightyherox.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="http://mightyherox.me/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="远程桌面" scheme="http://mightyherox.me/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
+    <category term="远程桌面" scheme="http://mightyherox.me/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
     
-      <category term="Windows" scheme="http://mightyherox.me/tags/Windows/"/>
+    <category term="Windows" scheme="http://mightyherox.me/tags/Windows/"/>
     
-      <category term="宿舍" scheme="http://mightyherox.me/tags/%E5%AE%BF%E8%88%8D/"/>
+    <category term="宿舍" scheme="http://mightyherox.me/tags/%E5%AE%BF%E8%88%8D/"/>
     
-      <category term="图书馆" scheme="http://mightyherox.me/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/"/>
+    <category term="图书馆" scheme="http://mightyherox.me/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/"/>
     
   </entry>
   
@@ -182,23 +203,21 @@
     <link href="http://mightyherox.me/How-to-create-your-first-VPS-on-DigitalOcean/"/>
     <id>http://mightyherox.me/How-to-create-your-first-VPS-on-DigitalOcean/</id>
     <published>2020-08-20T06:39:24.000Z</published>
-    <updated>2020-08-20T14:42:57.215Z</updated>
-    
-    <summary type="html">
-    
-      从零开始搭建你的DigitalOcean VPS
-    
-    </summary>
+    <updated>2020-08-20T06:39:24.000Z</updated>
     
     
-      <category term="煮鸡" scheme="http://mightyherox.me/categories/%E7%85%AE%E9%B8%A1/"/>
+    <summary type="html">从零开始搭建你的DigitalOcean VPS</summary>
     
     
-      <category term="VPS" scheme="http://mightyherox.me/tags/VPS/"/>
     
-      <category term="DigitalOcean" scheme="http://mightyherox.me/tags/DigitalOcean/"/>
+    <category term="煮鸡" scheme="http://mightyherox.me/categories/%E7%85%AE%E9%B8%A1/"/>
     
-      <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
+    
+    <category term="VPS" scheme="http://mightyherox.me/tags/VPS/"/>
+    
+    <category term="DigitalOcean" scheme="http://mightyherox.me/tags/DigitalOcean/"/>
+    
+    <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
     
   </entry>
   
@@ -207,30 +226,28 @@
     <link href="http://mightyherox.me/%E5%AF%B9%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4%E7%9A%84%E7%94%9F%E6%B4%BB%E8%A7%82%E5%AF%9F/"/>
     <id>http://mightyherox.me/%E5%AF%B9%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4%E7%9A%84%E7%94%9F%E6%B4%BB%E8%A7%82%E5%AF%9F/</id>
     <published>2020-08-18T07:22:04.000Z</published>
-    <updated>2020-08-18T07:24:13.033Z</updated>
+    <updated>2020-08-18T07:22:04.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;昨天家里一楼电视坏了，今天把二楼的电视搬下去给爷爷奶奶看。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;一楼的电视平时都是爷爷奶奶在看，看的是有线数字电视。二楼的电视平时不怎么看，所以就搬下去一楼顶着先。爷爷奶奶让我播珠江台，但是我不会设置有线数字电
+&lt;p&gt;一楼的电视平时都是爷爷奶奶在看，看的是有线数字电视。二楼的电视平时不怎么看，所以就搬下去一楼顶着先。爷爷奶奶让我播珠江台，但是我不会设置有线数字电</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="生活" scheme="http://mightyherox.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="惯性思维" scheme="http://mightyherox.me/tags/%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="惯性思维" scheme="http://mightyherox.me/tags/%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
@@ -239,29 +256,27 @@
     <link href="http://mightyherox.me/%E8%9E%8D%E5%85%A5%E7%A4%BE%E4%BC%9A%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%96%B0%E5%8F%91%E7%8E%B0/"/>
     <id>http://mightyherox.me/%E8%9E%8D%E5%85%A5%E7%A4%BE%E4%BC%9A%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%96%B0%E5%8F%91%E7%8E%B0/</id>
     <published>2020-08-10T06:58:39.000Z</published>
-    <updated>2020-08-10T08:52:20.998Z</updated>
+    <updated>2020-08-10T06:58:39.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;王者荣耀&quot;&gt;&lt;a href=&quot;#王者荣耀&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;王者荣耀&quot;&gt;&lt;a href=&quot;#王者荣耀&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="王者荣耀" scheme="http://mightyherox.me/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/"/>
+    <category term="王者荣耀" scheme="http://mightyherox.me/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/"/>
     
-      <category term="抖音" scheme="http://mightyherox.me/tags/%E6%8A%96%E9%9F%B3/"/>
+    <category term="抖音" scheme="http://mightyherox.me/tags/%E6%8A%96%E9%9F%B3/"/>
     
-      <category term="社交" scheme="http://mightyherox.me/tags/%E7%A4%BE%E4%BA%A4/"/>
+    <category term="社交" scheme="http://mightyherox.me/tags/%E7%A4%BE%E4%BA%A4/"/>
     
   </entry>
   
@@ -270,28 +285,26 @@
     <link href="http://mightyherox.me/height-100-%E6%97%A0%E6%95%88%EF%BC%9F/"/>
     <id>http://mightyherox.me/height-100-%E6%97%A0%E6%95%88%EF%BC%9F/</id>
     <published>2020-07-21T08:15:57.000Z</published>
-    <updated>2020-07-21T08:38:19.368Z</updated>
+    <updated>2020-07-21T08:15:57.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;昨晚在做一个小demo时想要实现水平垂直都居中的效果，使用flex布局，CSS样式如下：&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+    <summary type="html">&lt;p&gt;昨晚在做一个小demo时想要实现水平垂直都居中的效果，使用flex布局，CSS样式如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
         
       
     
-    </summary>
     
     
-      <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
+    <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
     
-      <category term="HTML" scheme="http://mightyherox.me/tags/HTML/"/>
+    <category term="HTML" scheme="http://mightyherox.me/tags/HTML/"/>
     
   </entry>
   
@@ -300,25 +313,23 @@
     <link href="http://mightyherox.me/%E4%B8%8D%E7%BB%8F%E6%84%8F%E9%97%B4%E7%9A%84%E6%84%A4%E6%80%92%E6%98%AF%E5%8F%AF%E6%80%95%E7%9A%84/"/>
     <id>http://mightyherox.me/%E4%B8%8D%E7%BB%8F%E6%84%8F%E9%97%B4%E7%9A%84%E6%84%A4%E6%80%92%E6%98%AF%E5%8F%AF%E6%80%95%E7%9A%84/</id>
     <published>2020-07-19T01:45:50.000Z</published>
-    <updated>2020-08-02T10:52:41.852Z</updated>
-    
-    <summary type="html">
-    
-      这是一篇加密文章，内容可能是个人日常吐槽或者特殊技术分享。如果你确实想看，请与我联系。非亲友团勿扰。
-    
-    </summary>
+    <updated>2020-07-19T01:45:50.000Z</updated>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <summary type="html">这是一篇加密文章，内容可能是个人日常吐槽或者特殊技术分享。如果你确实想看，请与我联系。非亲友团勿扰。</summary>
     
     
-      <category term="情绪" scheme="http://mightyherox.me/tags/%E6%83%85%E7%BB%AA/"/>
     
-      <category term="家人" scheme="http://mightyherox.me/tags/%E5%AE%B6%E4%BA%BA/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="语言" scheme="http://mightyherox.me/tags/%E8%AF%AD%E8%A8%80/"/>
     
-      <category term="网络" scheme="http://mightyherox.me/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="情绪" scheme="http://mightyherox.me/tags/%E6%83%85%E7%BB%AA/"/>
+    
+    <category term="家人" scheme="http://mightyherox.me/tags/%E5%AE%B6%E4%BA%BA/"/>
+    
+    <category term="语言" scheme="http://mightyherox.me/tags/%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="网络" scheme="http://mightyherox.me/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -327,34 +338,32 @@
     <link href="http://mightyherox.me/JavaScript%E3%80%81ES6%E3%80%81TypeScript%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/"/>
     <id>http://mightyherox.me/JavaScript%E3%80%81ES6%E3%80%81TypeScript%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</id>
     <published>2020-07-15T13:16:39.000Z</published>
-    <updated>2020-07-15T13:52:02.247Z</updated>
+    <updated>2020-07-15T13:16:39.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;今天复习前端三剑客之&lt;strong&gt;JavaScript&lt;/strong&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;JavaScript和ES6&quot;&gt;&lt;a href=&quot;#JavaScript和ES6&quot;
+&lt;h2 id=&quot;JavaScript和ES6&quot;&gt;&lt;a href=&quot;#JavaScript和ES6&quot;</summary>
         
       
     
-    </summary>
     
     
-      <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="JavaScript" scheme="http://mightyherox.me/tags/JavaScript/"/>
+    <category term="JavaScript" scheme="http://mightyherox.me/tags/JavaScript/"/>
     
-      <category term="ES6" scheme="http://mightyherox.me/tags/ES6/"/>
+    <category term="ES6" scheme="http://mightyherox.me/tags/ES6/"/>
     
-      <category term="TypeScript" scheme="http://mightyherox.me/tags/TypeScript/"/>
+    <category term="TypeScript" scheme="http://mightyherox.me/tags/TypeScript/"/>
     
-      <category term="Babel" scheme="http://mightyherox.me/tags/Babel/"/>
+    <category term="Babel" scheme="http://mightyherox.me/tags/Babel/"/>
     
   </entry>
   
@@ -363,27 +372,25 @@
     <link href="http://mightyherox.me/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/"/>
     <id>http://mightyherox.me/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%8F%8A%E6%97%B6%E8%A1%8C%E4%B9%90/</id>
     <published>2020-07-13T06:15:26.000Z</published>
-    <updated>2020-07-13T06:40:14.487Z</updated>
+    <updated>2020-07-13T06:15:26.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;最近情绪不太稳定，有时候是积极的，有时候是消极的。还经常回忆过去，想着当时应该怎么怎么做才对。可惜呀~人生苦短，过去的事情无法改变了。而未来，似乎也没剩下多少时间。随着年龄的增长越来越觉得时间短暂了。也因为如此时常变得焦虑，总觉得要做的事情有很多，但是又不想去做，就这么拖着
+    <summary type="html">&lt;p&gt;最近情绪不太稳定，有时候是积极的，有时候是消极的。还经常回忆过去，想着当时应该怎么怎么做才对。可惜呀~人生苦短，过去的事情无法改变了。而未来，似乎也没剩下多少时间。随着年龄的增长越来越觉得时间短暂了。也因为如此时常变得焦虑，总觉得要做的事情有很多，但是又不想去做，就这么拖着</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="生活" scheme="http://mightyherox.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="碎碎念" scheme="http://mightyherox.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://mightyherox.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -392,32 +399,30 @@
     <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/"/>
     <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/</id>
     <published>2020-07-12T02:43:09.000Z</published>
-    <updated>2020-09-23T00:58:23.821Z</updated>
+    <updated>2020-07-12T02:43:09.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;最近在开发&lt;a
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;最近在开发&lt;a</summary>
         
       
     
-    </summary>
     
     
-      <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
+    <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
+    <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
-      <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
+    <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
-      <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
+    <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
     
   </entry>
   
@@ -426,34 +431,32 @@
     <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-JSZip%E4%BD%BF%E7%94%A8/"/>
     <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-JSZip%E4%BD%BF%E7%94%A8/</id>
     <published>2020-07-11T15:11:13.000Z</published>
-    <updated>2020-07-11T15:18:28.048Z</updated>
+    <updated>2020-07-11T15:11:13.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;最近在开发&lt;a href=&quot;tool.mightyherox.me&quot;&gt;Bilibili评论转图片神器&lt;/a&gt;，功能是将Bilibili视频评论区的评论转换成PNG图片。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;开发这个工具的思路是使用&lt;a
+&lt;p&gt;开发这个工具的思路是使用&lt;a</summary>
         
       
     
-    </summary>
     
     
-      <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
+    <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
+    <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
-      <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
+    <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
     
-      <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
+    <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
-      <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -462,38 +465,36 @@
     <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-html2canvas%E4%BD%BF%E7%94%A8/"/>
     <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-html2canvas%E4%BD%BF%E7%94%A8/</id>
     <published>2020-07-11T13:05:39.000Z</published>
-    <updated>2020-07-30T15:21:11.064Z</updated>
+    <updated>2020-07-11T13:05:39.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;最近在开发&lt;a href=&quot;tool.mightyherox.me&quot;&gt;Bilibili评论转图片神器&lt;/a&gt;，功能是将Bilibili视频评论区的评论转换成PNG图片。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;开发这个工具的思路是使用&lt;a
+&lt;p&gt;开发这个工具的思路是使用&lt;a</summary>
         
       
     
-    </summary>
     
     
-      <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
+    <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
+    <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
-      <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
+    <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
-      <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
+    <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
     
-      <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
+    <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
     
-      <category term="跨域" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    <category term="跨域" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   
@@ -502,38 +503,36 @@
     <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/"/>
     <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</id>
     <published>2020-07-11T06:23:56.000Z</published>
-    <updated>2020-07-11T13:08:23.645Z</updated>
+    <updated>2020-07-11T06:23:56.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;最近在开发&lt;a href=&quot;tool.mightyherox.me&quot;&gt;Bilibili评论转图片神器&lt;/a&gt;，功能是将Bilibili视频评论区的评论转换成PNG图片。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;本来打算是做一个纯前端，通过&lt;a
+&lt;p&gt;本来打算是做一个纯前端，通过&lt;a</summary>
         
       
     
-    </summary>
     
     
-      <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
+    <category term="开发" scheme="http://mightyherox.me/categories/%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
+    <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
-      <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
+    <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
-      <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="跨域" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%9F%9F/"/>
+    <category term="跨域" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
-      <category term="Nodejs" scheme="http://mightyherox.me/tags/Nodejs/"/>
+    <category term="Nodejs" scheme="http://mightyherox.me/tags/Nodejs/"/>
     
-      <category term="防盗链" scheme="http://mightyherox.me/tags/%E9%98%B2%E7%9B%97%E9%93%BE/"/>
+    <category term="防盗链" scheme="http://mightyherox.me/tags/%E9%98%B2%E7%9B%97%E9%93%BE/"/>
     
   </entry>
   
@@ -542,30 +541,28 @@
     <link href="http://mightyherox.me/%E9%9A%90%E5%A7%93%E4%BA%BF%E4%B8%87%E5%AF%8C%E7%BF%81/"/>
     <id>http://mightyherox.me/%E9%9A%90%E5%A7%93%E4%BA%BF%E4%B8%87%E5%AF%8C%E7%BF%81/</id>
     <published>2020-06-19T16:12:09.000Z</published>
-    <updated>2020-06-21T01:32:00.859Z</updated>
+    <updated>2020-06-19T16:12:09.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;最近在看一个节目《隐姓亿万富翁》，讲述的是亿万富翁Glenn
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;最近在看一个节目《隐姓亿万富翁》，讲述的是亿万富翁Glenn</summary>
         
       
     
-    </summary>
     
     
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="创业" scheme="http://mightyherox.me/tags/%E5%88%9B%E4%B8%9A/"/>
+    <category term="创业" scheme="http://mightyherox.me/tags/%E5%88%9B%E4%B8%9A/"/>
     
-      <category term="团队" scheme="http://mightyherox.me/tags/%E5%9B%A2%E9%98%9F/"/>
+    <category term="团队" scheme="http://mightyherox.me/tags/%E5%9B%A2%E9%98%9F/"/>
     
-      <category term="励志" scheme="http://mightyherox.me/tags/%E5%8A%B1%E5%BF%97/"/>
+    <category term="励志" scheme="http://mightyherox.me/tags/%E5%8A%B1%E5%BF%97/"/>
     
   </entry>
   
@@ -574,25 +571,23 @@
     <link href="http://mightyherox.me/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E9%9D%A2%E5%90%91%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%E4%BB%A5%E5%8F%8A%E5%AD%A6%E4%BC%9A%E5%AF%BB%E6%89%BE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
     <id>http://mightyherox.me/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E9%9D%A2%E5%90%91%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%E4%BB%A5%E5%8F%8A%E5%AD%A6%E4%BC%9A%E5%AF%BB%E6%89%BE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</id>
     <published>2020-05-22T14:41:02.000Z</published>
-    <updated>2020-05-22T15:10:59.106Z</updated>
+    <updated>2020-05-22T14:41:02.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;h2 id=&quot;面向项目学习&quot;&gt;&lt;a href=&quot;#面向项目学习&quot; class=&quot;headerlink&quot;
+    <summary type="html">&lt;h2 id=&quot;面向项目学习&quot;&gt;&lt;a href=&quot;#面向项目学习&quot; class=&quot;headerlink&quot;</summary>
         
       
     
-    </summary>
     
     
-      <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="超学习" scheme="http://mightyherox.me/tags/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    <category term="超学习" scheme="http://mightyherox.me/tags/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -601,54 +596,23 @@
     <link href="http://mightyherox.me/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E5%AD%A6%E4%BC%9A%E6%8A%BD%E8%B1%A1/"/>
     <id>http://mightyherox.me/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E5%AD%A6%E4%BC%9A%E6%8A%BD%E8%B1%A1/</id>
     <published>2020-05-15T02:25:57.000Z</published>
-    <updated>2020-05-15T02:55:21.969Z</updated>
+    <updated>2020-05-15T02:25:57.000Z</updated>
     
-    <summary type="html">
     
       
       
         
         
-          &lt;p&gt;大二有段时间在看Crash Course的&lt;a href=&quot;https://www.bilibili.com/video/BV1EW411u7th&quot; target=&quot;_blank&quot;
+    <summary type="html">&lt;p&gt;大二有段时间在看Crash Course的&lt;a href=&quot;https://www.bilibili.com/video/BV1EW411u7th&quot;&gt;计算机科学速成课&lt;/a&gt;，这系列的内容都很有趣，易于消化。印象深刻的一个细节是主持人Carrie</summary>
         
       
     
-    </summary>
     
     
-      <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
+    <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="超学习" scheme="http://mightyherox.me/tags/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>惠院学子如何申请学生邮箱</title>
-    <link href="http://mightyherox.me/%E6%83%A0%E9%99%A2%E5%AD%A6%E5%AD%90%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E5%AD%A6%E7%94%9F%E9%82%AE%E7%AE%B1/"/>
-    <id>http://mightyherox.me/%E6%83%A0%E9%99%A2%E5%AD%A6%E5%AD%90%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E5%AD%A6%E7%94%9F%E9%82%AE%E7%AE%B1/</id>
-    <published>2020-05-14T10:37:52.000Z</published>
-    <updated>2020-05-14T12:09:32.833Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;利用学生身份我们可以享受到许多学生优惠权益，这里面有很多实用资源，详情可以看这个&lt;a href=&quot;https://github.com/ivmm/Student-resources&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
-    
-      <category term="学生" scheme="http://mightyherox.me/tags/%E5%AD%A6%E7%94%9F/"/>
+    <category term="超学习" scheme="http://mightyherox.me/tags/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
