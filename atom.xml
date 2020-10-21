@@ -452,11 +452,11 @@
     
     <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
-    <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
-    
     <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
     <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
     
   </entry>
   
@@ -486,11 +486,11 @@
     
     <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
     
+    <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
+    
     <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
     
     <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
     
     <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
     
