@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-10-21T13:03:24.000Z</updated>
+  <updated>2020-10-26T02:29:45.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to use simple global store and axios in Vue project</title>
+    <link href="http://mightyherox.me/How-to-use-simple-global-store-and-axios-in-Vue-project/"/>
+    <id>http://mightyherox.me/How-to-use-simple-global-store-and-axios-in-Vue-project/</id>
+    <published>2020-10-26T02:29:45.000Z</published>
+    <updated>2020-10-26T02:29:45.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
+    
+    <category term="font-end" scheme="http://mightyherox.me/tags/font-end/"/>
+    
+    <category term="simple global store" scheme="http://mightyherox.me/tags/simple-global-store/"/>
+    
+    <category term="axios" scheme="http://mightyherox.me/tags/axios/"/>
+    
+    <category term="store pattern" scheme="http://mightyherox.me/tags/store-pattern/"/>
+    
+    <category term="store.js" scheme="http://mightyherox.me/tags/store-js/"/>
+    
+  </entry>
   
   <entry>
     <title>如何使用CORS代理解决“No Access-Control-Allow-Origin header”问题</title>
@@ -531,11 +566,11 @@
     
     <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="跨域" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
     <category term="html2canvas" scheme="http://mightyherox.me/tags/html2canvas/"/>
     
     <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
+    
+    <category term="跨域" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%9F%9F/"/>
     
   </entry>
   
@@ -604,31 +639,6 @@
     <category term="团队" scheme="http://mightyherox.me/tags/%E5%9B%A2%E9%98%9F/"/>
     
     <category term="励志" scheme="http://mightyherox.me/tags/%E5%8A%B1%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>超学习-面向项目学习以及学会寻找学习资源</title>
-    <link href="http://mightyherox.me/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E9%9D%A2%E5%90%91%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%E4%BB%A5%E5%8F%8A%E5%AD%A6%E4%BC%9A%E5%AF%BB%E6%89%BE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
-    <id>http://mightyherox.me/%E8%B6%85%E5%AD%A6%E4%B9%A0-%E9%9D%A2%E5%90%91%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%E4%BB%A5%E5%8F%8A%E5%AD%A6%E4%BC%9A%E5%AF%BB%E6%89%BE%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</id>
-    <published>2020-05-22T14:41:02.000Z</published>
-    <updated>2020-05-22T14:41:02.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;面向项目学习&quot;&gt;&lt;a href=&quot;#面向项目学习&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="超学习" scheme="http://mightyherox.me/tags/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
