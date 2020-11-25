@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-11-21T07:42:40.000Z</updated>
+  <updated>2020-11-25T01:51:37.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>杀死那个MySQL-main process exited code=killed status=9/kill</title>
+    <link href="http://mightyherox.me/%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AAMySQL-main-process-exited-code-killed-status-9-kill/"/>
+    <id>http://mightyherox.me/%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AAMySQL-main-process-exited-code-killed-status-9-kill/</id>
+    <published>2020-11-25T01:51:37.000Z</published>
+    <updated>2020-11-25T01:51:37.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;最近发现一个项目获取不到后端数据，于是登陆服务器查看一下情况，结果发现MySQL没有正常跑起来。&lt;/p&gt;
+&lt;h2 id=&quot;问题定位&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
+    
+    <category term="MySQL" scheme="http://mightyherox.me/tags/MySQL/"/>
+    
+    <category term="Java" scheme="http://mightyherox.me/tags/Java/"/>
+    
+    <category term="进程" scheme="http://mightyherox.me/tags/%E8%BF%9B%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>如何使用云函数绕过微信小程序网络通信的域名限制</title>
@@ -596,40 +628,6 @@
     <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bilibili评论转图片神器开发日志-JSZip使用</title>
-    <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-JSZip%E4%BD%BF%E7%94%A8/"/>
-    <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-JSZip%E4%BD%BF%E7%94%A8/</id>
-    <published>2020-07-11T15:11:13.000Z</published>
-    <updated>2020-07-11T15:11:13.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;最近在开发&lt;a href=&quot;tool.mightyherox.me&quot;&gt;Bilibili评论转图片神器&lt;/a&gt;，功能是将Bilibili视频评论区的评论转换成PNG图片。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;开发这个工具的思路是使用&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
-    
-    <category term="JSZip" scheme="http://mightyherox.me/tags/JSZip/"/>
-    
-    <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
-    
-    <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
