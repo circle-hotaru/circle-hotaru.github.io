@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-11-25T01:51:37.000Z</updated>
+  <updated>2020-11-26T08:48:26.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「译」理解JavaScript中的事件循环、回调、Promise和异步/等待</title>
+    <link href="http://mightyherox.me/%E3%80%8C%E8%AF%91%E3%80%8D%E7%90%86%E8%A7%A3JavaScript%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E3%80%81%E5%9B%9E%E8%B0%83%E3%80%81Promise%E5%92%8C%E5%BC%82%E6%AD%A5-%E7%AD%89%E5%BE%85/"/>
+    <id>http://mightyherox.me/%E3%80%8C%E8%AF%91%E3%80%8D%E7%90%86%E8%A7%A3JavaScript%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E3%80%81%E5%9B%9E%E8%B0%83%E3%80%81Promise%E5%92%8C%E5%BC%82%E6%AD%A5-%E7%AD%89%E5%BE%85/</id>
+    <published>2020-11-26T08:48:26.000Z</published>
+    <updated>2020-11-26T08:48:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;在早期互联网时代，网站通常由&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="JavaScript" scheme="http://mightyherox.me/tags/JavaScript/"/>
+    
+    <category term="Event Loop" scheme="http://mightyherox.me/tags/Event-Loop/"/>
+    
+    <category term="Callbacks" scheme="http://mightyherox.me/tags/Callbacks/"/>
+    
+    <category term="Promises" scheme="http://mightyherox.me/tags/Promises/"/>
+    
+    <category term="async" scheme="http://mightyherox.me/tags/async/"/>
+    
+    <category term="await" scheme="http://mightyherox.me/tags/await/"/>
+    
+    <category term="事件循环" scheme="http://mightyherox.me/tags/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/"/>
+    
+    <category term="回调" scheme="http://mightyherox.me/tags/%E5%9B%9E%E8%B0%83/"/>
+    
+    <category term="异步" scheme="http://mightyherox.me/tags/%E5%BC%82%E6%AD%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>杀死那个MySQL-main process exited code=killed status=9/kill</title>
@@ -596,38 +637,6 @@
     <category term="生活" scheme="http://mightyherox.me/tags/%E7%94%9F%E6%B4%BB/"/>
     
     <category term="碎碎念" scheme="http://mightyherox.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bilibili评论转图片神器开发日志-CSS Variables使用</title>
-    <link href="http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/"/>
-    <id>http://mightyherox.me/Bilibili%E8%AF%84%E8%AE%BA%E8%BD%AC%E5%9B%BE%E7%89%87%E7%A5%9E%E5%99%A8%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-CSS-Variables%E4%BD%BF%E7%94%A8/</id>
-    <published>2020-07-12T02:43:09.000Z</published>
-    <updated>2020-07-12T02:43:09.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;最近在开发&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="Bilibili" scheme="http://mightyherox.me/tags/Bilibili/"/>
-    
-    <category term="Front-end" scheme="http://mightyherox.me/tags/Front-end/"/>
-    
-    <category term="前端" scheme="http://mightyherox.me/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
     
   </entry>
   

@@ -4,6 +4,47 @@
   
     
     <entry>
+      <title>「译」理解JavaScript中的事件循环、回调、Promise和异步/等待</title>
+      <link href="%E3%80%8C%E8%AF%91%E3%80%8D%E7%90%86%E8%A7%A3JavaScript%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E3%80%81%E5%9B%9E%E8%B0%83%E3%80%81Promise%E5%92%8C%E5%BC%82%E6%AD%A5-%E7%AD%89%E5%BE%85/"/>
+      <url>%E3%80%8C%E8%AF%91%E3%80%8D%E7%90%86%E8%A7%A3JavaScript%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E3%80%81%E5%9B%9E%E8%B0%83%E3%80%81Promise%E5%92%8C%E5%BC%82%E6%AD%A5-%E7%AD%89%E5%BE%85/</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>在早期互联网时代，网站通常由<a href="https://www.digitalocean.com/community/tutorial_series/how-to-build-a-website-with-html">HTML页面</a>中的静态数据组成。但如今的web应用已经变得更富有交互性和动态性，越来越需要进行密集的操作，比如发起外部网络请求检索<a href="https://developer.mozilla.org/en-US/docs/Glossary/API">API</a>数据。为了在JavaScript中处理这些操作，开发人员必须使用异步编程技术。</p><p>JavaScript是一门单线程语言，同时同步执行模型使得处理操作只能一步接着一步，它只能语句。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> Event Loop </tag>
+            
+            <tag> Callbacks </tag>
+            
+            <tag> Promises </tag>
+            
+            <tag> async </tag>
+            
+            <tag> await </tag>
+            
+            <tag> 事件循环 </tag>
+            
+            <tag> 回调 </tag>
+            
+            <tag> 异步 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>杀死那个MySQL-main process exited code=killed status=9/kill</title>
       <link href="%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AAMySQL-main-process-exited-code-killed-status-9-kill/"/>
       <url>%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AAMySQL-main-process-exited-code-killed-status-9-kill/</url>
@@ -673,11 +714,11 @@
             
             <tag> 前端 </tag>
             
+            <tag> 跨域 </tag>
+            
             <tag> html2canvas </tag>
             
             <tag> Vue </tag>
-            
-            <tag> 跨域 </tag>
             
         </tags>
       

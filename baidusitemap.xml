@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://mightyherox.me/%E3%80%8C%E8%AF%91%E3%80%8D%E7%90%86%E8%A7%A3JavaScript%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E3%80%81%E5%9B%9E%E8%B0%83%E3%80%81Promise%E5%92%8C%E5%BC%82%E6%AD%A5-%E7%AD%89%E5%BE%85/</loc>
+    <lastmod>2020-11-26</lastmod>
+  </url>
+  <url>
     <loc>http://mightyherox.me/%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AAMySQL-main-process-exited-code-killed-status-9-kill/</loc>
     <lastmod>2020-11-25</lastmod>
   </url>
