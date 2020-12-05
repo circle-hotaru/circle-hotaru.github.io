@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>如何修改pip源为国内源</title>
+      <link href="%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9pip%E6%BA%90%E4%B8%BA%E5%9B%BD%E5%86%85%E6%BA%90/"/>
+      <url>%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9pip%E6%BA%90%E4%B8%BA%E5%9B%BD%E5%86%85%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<p>因为某些原因，在我国使用 pip 下载软件包的时候会异常缓慢甚至直接下载不了。为了解决这个问题，我们可以使用国内的镜像源达到高速下载。</p><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><ul><li>系统: Windows 10</li><li>pip: 20.2.1</li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>这里以<a href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/">清华源</a>为例。按照清华源的介绍，需升级 pip 到最新的版本 (&gt;=10.0.0) 后进行配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install pip -U</span><br><span class="line">pip config set global.index-url https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple</span><br></pre></td></tr></table></figure><p>但是在实际下载过程中发现会报 <code>_ssl.c:1107: The handshake operation timed out</code> 错误，这个时候我们需要找到并修改pip.ini文件。</p><p>打开pip.ini文件，我们会发现如下内容：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url &#x3D; https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple</span><br></pre></td></tr></table></figure><p>这是前面设置了清华源的缘故。我们需要在它下方添加新的内容：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[install]</span><br><span class="line">trusted-host &#x3D; pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure><p>因为我们用的是https通信，这里设置让pip信任清华源。</p><p>完整内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url &#x3D; https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple</span><br><span class="line"></span><br><span class="line">[install]</span><br><span class="line">trusted-host &#x3D; pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>按照上面的步骤你已经正确设置pip源为清华源了，好好享受飞一样的速度吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pip </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用code-server打造你的云端VS Code</title>
       <link href="%E4%BD%BF%E7%94%A8code-server%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%BA%91%E7%AB%AFVS-Code/"/>
       <url>%E4%BD%BF%E7%94%A8code-server%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E4%BA%91%E7%AB%AFVS-Code/</url>
