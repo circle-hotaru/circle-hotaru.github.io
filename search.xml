@@ -4,11 +4,40 @@
   
     
     <entry>
+      <title>字面量是什么？</title>
+      <link href="%E5%AD%97%E9%9D%A2%E9%87%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
+      <url>%E5%AD%97%E9%9D%A2%E9%87%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>在阅读技术文档的时候偶尔会遇到<strong>字面量（Literals）</strong>，咋一看，好家伙，这是什么高大上的名词？于是赶紧去 google 一番，但是出来的结果都语焉不详。</p><p>比如 MDN 的<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types#%E5%AD%97%E9%9D%A2%E9%87%8F_Literals">中文翻译</a>是：</p><blockquote><p>译注：字面量是由语法表达式定义的常量；或，通过由一定字词组成的语词表达式定义的常量） 在JavaScript中，你可以使用各种字面量。这些字面量是脚本中按字面意思给出的固定的值，而不是变量。（译注：字面量是常量，其值是固定的，而且在程序脚本运行中不可更改，比如<em>false</em>，3.1415，thisIsStringOfHelloworld **，invokedFunction: myFunction(“myArgument”)。</p></blockquote><p>好像说得有点不太接地气。让我们看看<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Literals">英文原文</a>是如何表达的：</p><blockquote><p>Literals represent values in JavaScript. These are fixed values—not variables—that you literally provide in your script.</p></blockquote><p>这……咋原文这么简短，中文翻译绕来绕去的。让我来翻译翻译原文：</p><p>在 JavaScript 中字面量表示 值（values）。它们是你在脚本中字面上写出来的固定的值，而不是变量。</p><p>可能你看了翻译还是不太理解，没关系，我们结合程序继续讲解：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var a = 100</span><br><span class="line">var b = &quot;JavaScript&quot;</span><br><span class="line">var c = [5,6,7]</span><br><span class="line">var d = &#123;</span><br><span class="line">name: &quot;小明&quot;,</span><br><span class="line">age: 18</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面例子中等号的左边都是变量（a、b、c、d），而右边的都是<strong>字面量</strong>（100、JavaScript……），也就是说<strong>字面量</strong>是你在程序源码中直接写出来的值。意即字面上的值。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>多看英文原文。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> Literals </tag>
+            
+            <tag> 字面量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网络时代平凡又渺小的我们</title>
       <link href="%E7%BD%91%E7%BB%9C%E6%97%B6%E4%BB%A3%E5%B9%B3%E5%87%A1%E5%8F%88%E6%B8%BA%E5%B0%8F%E7%9A%84%E6%88%91%E4%BB%AC/"/>
       <url>%E7%BD%91%E7%BB%9C%E6%97%B6%E4%BB%A3%E5%B9%B3%E5%87%A1%E5%8F%88%E6%B8%BA%E5%B0%8F%E7%9A%84%E6%88%91%E4%BB%AC/</url>
       
-        <content type="html"><![CDATA[<p>自从上了大学后，我的生活发生了许多变化，一个明显的变化是，我的内心很痛苦。</p><blockquote><p>同辈压力（peer pressure）是指同辈人互相比较中产生的心理压力，一个同辈人团体对个人施加影响，会促使个人改变其态度、价值观或行为使其遵守团体准则。</p></blockquote><p>高中时代虽然面临着高考的压力，但整体还是比较快乐的。值得骄傲的一件事是创建了自己的社团。那时候做事天不怕地不怕，随时随地都有新的想法。</p><p>但上了大学后，特别是开始玩社交平台后（你敢信我高考后的那个暑假才开始使用微信？），发现了许多优秀的人，相比之下我真的太菜了。看他们的动态多了之后，觉得成功好像是很容易的事情，如果我没做到的话，一定是因为我太菜了。可是我却忽略了他们成功的背后，除了付出传统意义上的努力，还有能够支持他们做成这件事的资金、人脉，以及更重要的是优渥的环境带来的思维方式与自信。</p><blockquote><p>二三本学生就算付出比名校学生多的努力也很难追上他们，因为名校本身就可以给他们很多资源，也奠定了他们的自信心来源。同时能考上名校的，大多原生家庭就已经很不错，家庭注重教育，有可以大胆尝试的资本，从小的眼界就跟常人不一样。</p></blockquote><p>于是最近我开始思考，我真的那么菜吗？</p><ul><li>我会玩github，在我们系玩github的人几乎不到90%；</li><li>我会玩摄影，每次发朋友圈都能得到点赞和羡慕，经常有人找我约拍；</li><li>我的英文阅读水平还可以；</li><li>我在高中创办了一个社团；</li><li>我的专业成绩在班里也算前茅；</li><li>我在即刻的粉丝数也不少；</li><li>我有阅读和写作的习惯；</li><li>我有爱我的家人；</li><li>……</li></ul><p>网络时代，大家可以轻轻松松地分享自己的生活。但是我们要知道，大部分分享生活的人都是玩得比较好的那些人。现实生活中的大多数人都是不怎么说话的观众。所以，不要否定你自己，你也很优秀！</p><p>标题灵感：</p><p><em>韩剧：“你在所有人眼中都闪闪发亮唯独看中了我”</em> </p><p><em>日剧：“在所有人眼中都平凡又渺小的我们 却在彼此的眼中闪闪发亮”</em></p>]]></content>
+        <content type="html"><![CDATA[<p>自从上了大学后，我的生活发生了许多变化，一个明显的变化是，我的内心很痛苦。</p><blockquote><p>同辈压力（peer pressure）是指同辈人互相比较中产生的心理压力，一个同辈人团体对个人施加影响，会促使个人改变其态度、价值观或行为使其遵守团体准则。</p></blockquote><p>高中时代虽然面临着高考的压力，但整体还是比较快乐的。值得骄傲的一件事是创建了自己的社团。那时候做事天不怕地不怕，随时随地都有新的想法。</p><p>但上了大学后，特别是开始玩社交平台后（你敢信我高考后的那个暑假才开始使用微信？），发现了许多优秀的人，相比之下我真的太菜了。看他们的动态多了之后，觉得成功好像是很容易的事情，如果我没做到的话，一定是因为我太菜了。可是我却忽略了他们成功的背后，除了付出传统意义上的努力，还有能够支持他们做成这件事的资金、人脉，以及更重要的是优渥的环境带来的思维方式与自信。</p><blockquote><p>二三本学生就算付出比名校学生多的努力也很难追上他们，因为名校本身就可以给他们很多资源，也奠定了他们的自信心来源。同时能考上名校的，大多原生家庭就已经很不错，家庭注重教育，有可以大胆尝试的资本，从小的眼界就跟常人不一样。</p></blockquote><p>于是最近我开始思考，我真的那么菜吗？</p><ul><li>我会玩github，在我们系玩github的人几乎不到90%；</li><li>我会玩摄影，每次发朋友圈都能得到点赞和羡慕，经常有人找我约拍；</li><li>我的英文阅读水平还可以；</li><li>我在高中创办了一个社团；</li><li>我的专业成绩在班里也算前茅；</li><li>我在即刻的粉丝数也不少；</li><li>我有阅读和写作的习惯；</li><li>我有爱我的家人；</li><li>……</li></ul><p>网络时代，大家可以轻轻松松地分享自己的生活。但是我们要知道，大部分分享生活的人都是玩得比较好的那些人。现实生活中的大多数人都是不怎么说话的观众。所以，不要否定你自己，你也很优秀！</p><p>标题灵感：</p><p><em>韩剧：“你在所有人眼中都闪闪发亮唯独看中了我”</em> </p><p><em>日剧：“在所有人眼中都平凡又渺小的我们，却在彼此的眼中闪闪发亮”</em></p>]]></content>
       
       
       <categories>
