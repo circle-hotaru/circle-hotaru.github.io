@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2020-12-21T15:45:12.000Z</updated>
+  <updated>2021-01-27T07:21:17.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《人生七年》观后感</title>
+    <link href="http://mightyherox.me/%E3%80%8A%E4%BA%BA%E7%94%9F%E4%B8%83%E5%B9%B4%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/"/>
+    <id>http://mightyherox.me/%E3%80%8A%E4%BA%BA%E7%94%9F%E4%B8%83%E5%B9%B4%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/</id>
+    <published>2021-01-27T07:21:17.000Z</published>
+    <updated>2021-01-27T07:21:17.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;人的一生是很短暂的&quot;&gt;&lt;a href=&quot;#人的一生是很短暂的&quot; class=&quot;headerlink&quot; title=&quot;人的一生是很短暂的&quot;&gt;&lt;/a&gt;人的一生是很短暂的&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="观影" scheme="http://mightyherox.me/categories/%E8%A7%82%E5%BD%B1/"/>
+    
+    
+    <category term="人生七年" scheme="http://mightyherox.me/tags/%E4%BA%BA%E7%94%9F%E4%B8%83%E5%B9%B4/"/>
+    
+    <category term="7 up" scheme="http://mightyherox.me/tags/7-up/"/>
+    
+    <category term="纪录片" scheme="http://mightyherox.me/tags/%E7%BA%AA%E5%BD%95%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>Web API：event.preventdefault() 有什么用？</title>
@@ -606,36 +635,6 @@
     <category term="DigitalOcean" scheme="http://mightyherox.me/tags/DigitalOcean/"/>
     
     <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对惯性思维的生活观察</title>
-    <link href="http://mightyherox.me/%E5%AF%B9%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4%E7%9A%84%E7%94%9F%E6%B4%BB%E8%A7%82%E5%AF%9F/"/>
-    <id>http://mightyherox.me/%E5%AF%B9%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4%E7%9A%84%E7%94%9F%E6%B4%BB%E8%A7%82%E5%AF%9F/</id>
-    <published>2020-08-18T07:22:04.000Z</published>
-    <updated>2020-08-18T07:22:04.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;昨天家里一楼电视坏了，今天把二楼的电视搬下去给爷爷奶奶看。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;一楼的电视平时都是爷爷奶奶在看，看的是有线数字电视。二楼的电视平时不怎么看，所以就搬下去一楼顶着先。爷爷奶奶让我播珠江台，但是我不会设置有线数字电</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="生活" scheme="http://mightyherox.me/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="惯性思维" scheme="http://mightyherox.me/tags/%E6%83%AF%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
