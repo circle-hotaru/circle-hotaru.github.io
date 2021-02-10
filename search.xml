@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>npm login 超时怎么办？</title>
+      <link href="npm-login-%E8%B6%85%E6%97%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
+      <url>npm-login-%E8%B6%85%E6%97%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在发布 npm 包的时候我们需要在本地项目进行 <code>npm login</code> 操作，但是很容易遇到超时的情况。</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>国内使用 npm 应该都会设置淘宝镜像，但是淘宝镜像只是提供下载，当我们要 <code>npm login</code>、<code>npm publish</code> 时需要切换会官方源，即：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https:&#x2F;&#x2F;registry.npmjs.org</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nodejs </tag>
+            
+            <tag> npm </tag>
+            
+            <tag> proxy </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Node CLI 开发：解决&#39;syntax error near unexpected token `(&#39;错误</title>
+      <link href="Node-CLI-%E5%BC%80%E5%8F%91%EF%BC%9A%E8%A7%A3%E5%86%B3-syntax-error-near-unexpected-token-%E9%94%99%E8%AF%AF/"/>
+      <url>Node-CLI-%E5%BC%80%E5%8F%91%EF%BC%9A%E8%A7%A3%E5%86%B3-syntax-error-near-unexpected-token-%E9%94%99%E8%AF%AF/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在开发一个 Node CLI 工具 <a href="https://www.npmjs.com/package/bilibili-video-analysis">bilibili-video-analysis</a>，希望可以直接使用 <code>bili-video -u url-of-bilibili-video</code> 开启服务。但是执行结果却报错：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">syntax error near unexpected token &#96;(</span><br></pre></td></tr></table></figure><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>出错原因是因为我的开发环境是 Windows，但 CLI 工具的执行环境是 Unix。而这两者的回车换行符是不兼容的。</p><blockquote><p>Unix系统里，每行结尾只有”&lt;换行&gt;”，即”\n”；Windows系统里面，每行结尾是”&lt;回车&gt;&lt;换行&gt;”，即”\r\n”；Mac系统里，每行结尾是”&lt;回车&gt;”。一个直接后果是，Unix/Mac系统下的文件在Windows里打开的话，所有文字会变成一行；而Windows里的文件在Unix/Mac下打开的话，在每行的结尾可能会多出一个^M符号。</p><p>——《回车和换行》 阮一峰</p></blockquote><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>把文件中的回车换行符换成 Unix 下的换行符即可。</p><p>以 vscode 为例：</p><p>在 settings 中搜索 file:Eol，将默认的 auto 选项改为 \n，然后重新保存你的文件即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Nodejs </tag>
+            
+            <tag> CLI </tag>
+            
+            <tag> Winodws </tag>
+            
+            <tag> Bug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>《人生七年》观后感</title>
       <link href="%E3%80%8A%E4%BA%BA%E7%94%9F%E4%B8%83%E5%B9%B4%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/"/>
       <url>%E3%80%8A%E4%BA%BA%E7%94%9F%E4%B8%83%E5%B9%B4%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/</url>

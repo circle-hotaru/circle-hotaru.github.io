@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-01-27T07:21:17.000Z</updated>
+  <updated>2021-02-10T12:19:50.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>npm login 超时怎么办？</title>
+    <link href="http://mightyherox.me/npm-login-%E8%B6%85%E6%97%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
+    <id>http://mightyherox.me/npm-login-%E8%B6%85%E6%97%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</id>
+    <published>2021-02-10T12:19:50.000Z</published>
+    <updated>2021-02-10T12:19:50.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在发布 npm 包的时候我们需要在本地项目进行 &lt;code&gt;npm login&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Nodejs" scheme="http://mightyherox.me/tags/Nodejs/"/>
+    
+    <category term="npm" scheme="http://mightyherox.me/tags/npm/"/>
+    
+    <category term="proxy" scheme="http://mightyherox.me/tags/proxy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node CLI 开发：解决&#39;syntax error near unexpected token `(&#39;错误</title>
+    <link href="http://mightyherox.me/Node-CLI-%E5%BC%80%E5%8F%91%EF%BC%9A%E8%A7%A3%E5%86%B3-syntax-error-near-unexpected-token-%E9%94%99%E8%AF%AF/"/>
+    <id>http://mightyherox.me/Node-CLI-%E5%BC%80%E5%8F%91%EF%BC%9A%E8%A7%A3%E5%86%B3-syntax-error-near-unexpected-token-%E9%94%99%E8%AF%AF/</id>
+    <published>2021-02-10T11:35:48.000Z</published>
+    <updated>2021-02-10T11:35:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近在开发一个 Node CLI 工具 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
+    
+    <category term="Nodejs" scheme="http://mightyherox.me/tags/Nodejs/"/>
+    
+    <category term="CLI" scheme="http://mightyherox.me/tags/CLI/"/>
+    
+    <category term="Winodws" scheme="http://mightyherox.me/tags/Winodws/"/>
+    
+    <category term="Bug" scheme="http://mightyherox.me/tags/Bug/"/>
+    
+  </entry>
   
   <entry>
     <title>《人生七年》观后感</title>
@@ -575,66 +637,6 @@
     
     
     <category term="大学" scheme="http://mightyherox.me/tags/%E5%A4%A7%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解锁HZU最佳学习方式</title>
-    <link href="http://mightyherox.me/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/"/>
-    <id>http://mightyherox.me/%E8%A7%A3%E9%94%81HZU%E6%9C%80%E4%BD%B3%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F/</id>
-    <published>2020-09-02T08:30:54.000Z</published>
-    <updated>2020-09-02T08:30:54.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="超学习" scheme="http://mightyherox.me/categories/%E8%B6%85%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="惠州学院" scheme="http://mightyherox.me/tags/%E6%83%A0%E5%B7%9E%E5%AD%A6%E9%99%A2/"/>
-    
-    <category term="HZU" scheme="http://mightyherox.me/tags/HZU/"/>
-    
-    <category term="学习" scheme="http://mightyherox.me/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="远程桌面" scheme="http://mightyherox.me/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
-    
-    <category term="Windows" scheme="http://mightyherox.me/tags/Windows/"/>
-    
-    <category term="宿舍" scheme="http://mightyherox.me/tags/%E5%AE%BF%E8%88%8D/"/>
-    
-    <category term="图书馆" scheme="http://mightyherox.me/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何在DigitalOcean创建你的第一台VPS</title>
-    <link href="http://mightyherox.me/How-to-create-your-first-VPS-on-DigitalOcean/"/>
-    <id>http://mightyherox.me/How-to-create-your-first-VPS-on-DigitalOcean/</id>
-    <published>2020-08-20T06:39:24.000Z</published>
-    <updated>2020-08-20T06:39:24.000Z</updated>
-    
-    
-    <summary type="html">从零开始搭建你的DigitalOcean VPS</summary>
-    
-    
-    
-    <category term="煮鸡" scheme="http://mightyherox.me/categories/%E7%85%AE%E9%B8%A1/"/>
-    
-    
-    <category term="VPS" scheme="http://mightyherox.me/tags/VPS/"/>
-    
-    <category term="DigitalOcean" scheme="http://mightyherox.me/tags/DigitalOcean/"/>
-    
-    <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
     
   </entry>
   
