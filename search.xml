@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>NodeJS 踩坑记</title>
+      <link href="NodeJS-%E8%B8%A9%E5%9D%91%E8%AE%B0/"/>
+      <url>NodeJS-%E8%B8%A9%E5%9D%91%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>Node 处理 HTTP 请求过程种，所有的请求头全是小写字母，而不管实际上它们是怎么进行传输的。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">req.headers[<span class="string">&#x27;content-type&#x27;</span>] <span class="comment">// 有效</span></span><br><span class="line">req.headers[<span class="string">&#x27;Content-Type&#x27;</span>] <span class="comment">// 无效</span></span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NodeJS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>npm login 超时怎么办？</title>
       <link href="npm-login-%E8%B6%85%E6%97%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
       <url>npm-login-%E8%B6%85%E6%97%B6%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</url>
@@ -49,9 +74,9 @@
       
         <tags>
             
-            <tag> Linux </tag>
-            
             <tag> Nodejs </tag>
+            
+            <tag> Linux </tag>
             
             <tag> CLI </tag>
             
@@ -907,11 +932,11 @@
             
             <tag> Bilibili </tag>
             
-            <tag> JSZip </tag>
-            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
+            
+            <tag> JSZip </tag>
             
         </tags>
       
@@ -938,11 +963,11 @@
             
             <tag> Bilibili </tag>
             
+            <tag> html2canvas </tag>
+            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
-            
-            <tag> html2canvas </tag>
             
             <tag> Vue </tag>
             

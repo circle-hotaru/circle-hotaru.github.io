@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-02-10T12:19:50.000Z</updated>
+  <updated>2021-03-17T07:26:30.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NodeJS 踩坑记</title>
+    <link href="http://mightyherox.me/NodeJS-%E8%B8%A9%E5%9D%91%E8%AE%B0/"/>
+    <id>http://mightyherox.me/NodeJS-%E8%B8%A9%E5%9D%91%E8%AE%B0/</id>
+    <published>2021-03-17T07:26:30.000Z</published>
+    <updated>2021-03-17T07:26:30.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Node 处理 HTTP 请求过程种，所有的请求头全是小写字母，而不管实际上它们是怎么进行传输的。&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="NodeJS" scheme="http://mightyherox.me/tags/NodeJS/"/>
+    
+  </entry>
   
   <entry>
     <title>npm login 超时怎么办？</title>
@@ -66,9 +93,9 @@
     <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
-    
     <category term="Nodejs" scheme="http://mightyherox.me/tags/Nodejs/"/>
+    
+    <category term="Linux" scheme="http://mightyherox.me/tags/Linux/"/>
     
     <category term="CLI" scheme="http://mightyherox.me/tags/CLI/"/>
     
@@ -611,32 +638,6 @@
     <category term="Github" scheme="http://mightyherox.me/tags/Github/"/>
     
     <category term="机会" scheme="http://mightyherox.me/tags/%E6%9C%BA%E4%BC%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>火车驶向云外 梦安魂于九霄</title>
-    <link href="http://mightyherox.me/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/"/>
-    <id>http://mightyherox.me/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/</id>
-    <published>2020-09-13T07:16:47.000Z</published>
-    <updated>2020-09-13T07:16:47.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前天考完计网和微机后，大学生活应该算告一段落了。虽然还有大四一年，但基本都不在学校生活，开始接触社会。&lt;/p&gt;
-&lt;p&gt;我最近过得怎样呢？应该说很迷茫吧。现在这个阶段大学生提及最多的就是考研、考公和工作的事情。我这个专业大部分学生都去实习了，不过自己的很多朋友都在准备考研或者</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="大学" scheme="http://mightyherox.me/tags/%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   
