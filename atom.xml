@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-03-17T07:26:30.000Z</updated>
+  <updated>2021-04-01T12:42:58.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>今日不宜妄自菲薄</title>
+    <link href="http://mightyherox.me/%E4%BB%8A%E6%97%A5%E4%B8%8D%E5%AE%9C%E5%A6%84%E8%87%AA%E8%8F%B2%E8%96%84/"/>
+    <id>http://mightyherox.me/%E4%BB%8A%E6%97%A5%E4%B8%8D%E5%AE%9C%E5%A6%84%E8%87%AA%E8%8F%B2%E8%96%84/</id>
+    <published>2021-04-01T12:42:58.000Z</published>
+    <updated>2021-04-01T12:42:58.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天下午去参加了某游戏公司的宣讲会。其实去之前挺犹豫要不要去的，因为没有自己想要的岗位，只能投个比较容易进的岗位。宣讲会刚开始没多久，一个跟我同一届的同乡在微信上问我有没有去，宣讲会怎么样。她是其他专业的，而且自从大一加了微信后就再也没聊过了，突然来问我还是有点惊讶。&lt;/p</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="自我认同" scheme="http://mightyherox.me/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E5%90%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>NodeJS 踩坑记</title>
@@ -609,35 +634,6 @@
     
     
     <category term="阶层差距" scheme="http://mightyherox.me/tags/%E9%98%B6%E5%B1%82%E5%B7%AE%E8%B7%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>maintain output and create value</title>
-    <link href="http://mightyherox.me/maintain-output-and-create-value/"/>
-    <id>http://mightyherox.me/maintain-output-and-create-value/</id>
-    <published>2020-09-17T14:07:46.000Z</published>
-    <updated>2020-09-17T14:07:46.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天下午一个师弟说他的老师在班上提到我了，并展示了我的Github。后来了解到是因为疫情期间我关注了他的码云&amp;amp;B站账号，然后他也发现了我的Github账号。可能是因为惠院玩Github的学生太少了吧（问了几个大三师弟都对Github没什么概念），所以给他留下了比较深</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="输出" scheme="http://mightyherox.me/tags/%E8%BE%93%E5%87%BA/"/>
-    
-    <category term="Github" scheme="http://mightyherox.me/tags/Github/"/>
-    
-    <category term="机会" scheme="http://mightyherox.me/tags/%E6%9C%BA%E4%BC%9A/"/>
     
   </entry>
   
