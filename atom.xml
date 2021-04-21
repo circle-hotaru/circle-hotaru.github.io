@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-04-01T12:42:58.000Z</updated>
+  <updated>2021-04-21T15:14:19.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS笔记-什么是BFC</title>
+    <link href="http://mightyherox.me/CSS%E7%AC%94%E8%AE%B0-%E4%BB%80%E4%B9%88%E6%98%AFBFC/"/>
+    <id>http://mightyherox.me/CSS%E7%AC%94%E8%AE%B0-%E4%BB%80%E4%B9%88%E6%98%AFBFC/</id>
+    <published>2021-04-21T15:14:19.000Z</published>
+    <updated>2021-04-21T15:14:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;BFC（块级格式化上下文）&lt;/strong&gt;是页面中的一块渲染区域，并且有一套渲染规则，它决定了其子元素将如何定位，以及和其他元素的关系和相互作用。&lt;/p&gt;
+&lt;p&gt;一个HTML元素要创建BFC，则满足下列的任意一个即可：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;float</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://mightyherox.me/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="CSS" scheme="http://mightyherox.me/tags/CSS/"/>
+    
+    <category term="BFC" scheme="http://mightyherox.me/tags/BFC/"/>
+    
+    <category term="笔记" scheme="http://mightyherox.me/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>今日不宜妄自菲薄</title>
@@ -608,32 +640,6 @@
     <category term="Splashtop" scheme="http://mightyherox.me/tags/Splashtop/"/>
     
     <category term="扩展屏" scheme="http://mightyherox.me/tags/%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我奋斗了18年才和你坐在一起喝咖啡</title>
-    <link href="http://mightyherox.me/%E6%88%91%E5%A5%8B%E6%96%97%E4%BA%8618%E5%B9%B4%E6%89%8D%E5%92%8C%E4%BD%A0%E5%9D%90%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%96%9D%E5%92%96%E5%95%A1/"/>
-    <id>http://mightyherox.me/%E6%88%91%E5%A5%8B%E6%96%97%E4%BA%8618%E5%B9%B4%E6%89%8D%E5%92%8C%E4%BD%A0%E5%9D%90%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%96%9D%E5%92%96%E5%95%A1/</id>
-    <published>2020-09-22T14:25:47.000Z</published>
-    <updated>2020-09-22T14:25:47.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天在图书馆自习时，旁边来了一个女生想要使用图书馆的电脑。可是折腾了几次都没开机，然后问我怎么开机。当时感到很诧异，开机只需要按主机上的电源按钮即可，怎么会还有人不知道呢。然后突然回想起自己第一次接触电脑的情景。&lt;/p&gt;
-&lt;p&gt;我第一次接触电脑是在初中某个暑假的时候，我爸让</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="阶层差距" scheme="http://mightyherox.me/tags/%E9%98%B6%E5%B1%82%E5%B7%AE%E8%B7%9D/"/>
     
   </entry>
   

@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>CSS笔记-什么是BFC</title>
+      <link href="CSS%E7%AC%94%E8%AE%B0-%E4%BB%80%E4%B9%88%E6%98%AFBFC/"/>
+      <url>CSS%E7%AC%94%E8%AE%B0-%E4%BB%80%E4%B9%88%E6%98%AFBFC/</url>
+      
+        <content type="html"><![CDATA[<p><strong>BFC（块级格式化上下文）</strong>是页面中的一块渲染区域，并且有一套渲染规则，它决定了其子元素将如何定位，以及和其他元素的关系和相互作用。</p><p>一个HTML元素要创建BFC，则满足下列的任意一个即可：</p><ul><li>float的值不是none;</li><li>position的值不是static或者relative;</li><li>display的值为inline-block、inline-flex、table-cell、table-caption或者flex;</li><li>overflow的值不是visible。</li></ul><p>用处：</p><ul><li>避免外边距折叠；</li><li>清除浮动（计算BFC高度时，浮动元素也参与计算）；</li><li>避免和浮动元素重叠。</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol><li><a href="https://zhuanlan.zhihu.com/p/25321647">10 分钟理解 BFC 原理 - 林东洲的文章 - 知乎</a></li><li><a href="https://www.cnblogs.com/libin-1/p/7098468.html">什么是BFC</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+            <tag> BFC </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>今日不宜妄自菲薄</title>
       <link href="%E4%BB%8A%E6%97%A5%E4%B8%8D%E5%AE%9C%E5%A6%84%E8%87%AA%E8%8F%B2%E8%96%84/"/>
       <url>%E4%BB%8A%E6%97%A5%E4%B8%8D%E5%AE%9C%E5%A6%84%E8%87%AA%E8%8F%B2%E8%96%84/</url>
