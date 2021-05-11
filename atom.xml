@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-04-21T15:14:19.000Z</updated>
+  <updated>2021-05-11T14:35:43.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mongoose Aggregate 查询过去一周数据</title>
+    <link href="http://mightyherox.me/Mongoose-Aggregate-%E6%9F%A5%E8%AF%A2%E8%BF%87%E5%8E%BB%E4%B8%80%E5%91%A8%E6%95%B0%E6%8D%AE/"/>
+    <id>http://mightyherox.me/Mongoose-Aggregate-%E6%9F%A5%E8%AF%A2%E8%BF%87%E5%8E%BB%E4%B8%80%E5%91%A8%E6%95%B0%E6%8D%AE/</id>
+    <published>2021-05-11T14:35:43.000Z</published>
+    <updated>2021-05-11T14:35:43.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;最近在使用 MongoDB 时遇到一个需求，就是查询过去一周内每天新增的用户数。我使用 Mongoose 来操作数据库，可以通过</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="http://mightyherox.me/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="MongoDB" scheme="http://mightyherox.me/tags/MongoDB/"/>
+    
+    <category term="Mongoose" scheme="http://mightyherox.me/tags/Mongoose/"/>
+    
+    <category term="Aggregate" scheme="http://mightyherox.me/tags/Aggregate/"/>
+    
+  </entry>
   
   <entry>
     <title>CSS笔记-什么是BFC</title>
@@ -607,39 +636,6 @@
     <category term="机遇" scheme="http://mightyherox.me/tags/%E6%9C%BA%E9%81%87/"/>
     
     <category term="摄影" scheme="http://mightyherox.me/tags/%E6%91%84%E5%BD%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用Splashtop Wired XDisplay让iPad做win10扩展屏</title>
-    <link href="http://mightyherox.me/%E4%BD%BF%E7%94%A8Splashtop-Wired-XDisplay%E8%AE%A9iPad%E5%81%9Awin10%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
-    <id>http://mightyherox.me/%E4%BD%BF%E7%94%A8Splashtop-Wired-XDisplay%E8%AE%A9iPad%E5%81%9Awin10%E6%89%A9%E5%B1%95%E5%B1%8F/</id>
-    <published>2020-09-23T08:04:35.000Z</published>
-    <updated>2020-09-23T08:04:35.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="数码" scheme="http://mightyherox.me/categories/%E6%95%B0%E7%A0%81/"/>
-    
-    
-    <category term="iPad" scheme="http://mightyherox.me/tags/iPad/"/>
-    
-    <category term="win10" scheme="http://mightyherox.me/tags/win10/"/>
-    
-    <category term="笔记本" scheme="http://mightyherox.me/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
-    
-    <category term="Splashtop" scheme="http://mightyherox.me/tags/Splashtop/"/>
-    
-    <category term="扩展屏" scheme="http://mightyherox.me/tags/%E6%89%A9%E5%B1%95%E5%B1%8F/"/>
     
   </entry>
   
