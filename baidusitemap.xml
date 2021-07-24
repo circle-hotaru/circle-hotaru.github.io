@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://mightyherox.me/Nuxt-%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE-nuxt-i18n/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  <url>
+    <loc>http://mightyherox.me/Vue-I18n-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F%E5%B9%B6%E5%BA%94%E7%94%A8%E6%A0%B7%E5%BC%8F/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  <url>
     <loc>http://mightyherox.me/Mongoose-Aggregate-%E6%9F%A5%E8%AF%A2%E8%BF%87%E5%8E%BB%E4%B8%80%E5%91%A8%E6%95%B0%E6%8D%AE/</loc>
     <lastmod>2021-05-11</lastmod>
   </url>

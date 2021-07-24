@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>Nuxt 项目如何配置 nuxt-i18n</title>
+      <link href="Nuxt-%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE-nuxt-i18n/"/>
+      <url>Nuxt-%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE-nuxt-i18n/</url>
+      
+        <content type="html"><![CDATA[<p>nuxt-i18n 是 Nuxt 对 Vue I18n 的集成，与 Vue I18n 在 Vue CLI 创建的项目的配置方法上有所不同，相关资料也比较少。</p><h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><ol><li><code>yarn add nuxt-i18n</code> 下载 nuxt-i18n；</li><li>在根目录下创建 locales 文件夹，里面包含所需的国际化 json 文件，如：en.json、zh.json；</li><li>在 nuxt.config.js 中的 modules 内添加 ‘nuxt-i18n’，并新增 i18n 配置（此处设置默认语言为中文）。<br><img src="https://i.loli.net/2021/07/24/4pb1xSawovsMUEt.png" alt="2021-07-24_nuxt_config_增加-nuxt-i18n置.png"></li><li>使用如 <code>&lt;nuxt-link :to=&quot;switchLocalePath(&#39;en&#39;)&quot;&gt;EN&lt;/nuxt-link&gt;</code> 的代码切换至英文页面。</li><li>使用如 <code>&lt;nuxt-link :to=&quot;localePath(&#39;/&#39;)&quot;&gt;&#123;&#123; $t('nav_index') &#125;&#125;&lt;/nuxt-link&gt;</code> 的代码将根据当前语言跳转到相应语言的页面。<br><img src="https://i.loli.net/2021/07/24/b8crWyvfHSDZKdk.png" alt="2021-07-24_nuxt_使用nuxt-i18n.png"></li></ol><h2 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h2><ol><li><a href="https://github.com/nuxt-community/i18n-module">https://github.com/nuxt-community/i18n-module</a></li><li><a href="https://phrase.com/blog/posts/nuxt-js-tutorial-i18n/">https://phrase.com/blog/posts/nuxt-js-tutorial-i18n/</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> nuxt-i18n </tag>
+            
+            <tag> 国际化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue I18n 字符串使用变量并应用样式</title>
+      <link href="Vue-I18n-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F%E5%B9%B6%E5%BA%94%E7%94%A8%E6%A0%B7%E5%BC%8F/"/>
+      <url>Vue-I18n-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F%E5%B9%B6%E5%BA%94%E7%94%A8%E6%A0%B7%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<p>在 en.json / zh.json 文件中定义字符串，如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">“preview_tip&quot;: &quot;Hi &#123;yourName&#125;&quot;</span><br></pre></td></tr></table></figure><p>在组件中应用变量要这样写：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$t(&#39;preview_tip&#39;, &#123;yourName: this.yourName&#125;);</span><br></pre></td></tr></table></figure><p>若要给变量设置单独样式，则在组件中这样写：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;i18n path&#x3D;&quot;preview_tip&quot; tag&#x3D;&quot;div&quot;&gt;</span><br><span class="line">&lt;template v-slot:yourName&gt;</span><br><span class="line">&lt;span class&#x3D;&quot;role-name&quot;&gt;&#123;&#123;yourName&#125;&#125;&lt;&#x2F;span&gt;</span><br><span class="line">&lt;&#x2F;template&gt;</span><br><span class="line">&lt;&#x2F;i18n&gt;</span><br></pre></td></tr></table></figure><p>path 指定字符串的 key，v-slot 指定变量。</p><p>参考：</p><ul><li><a href="https://kazupon.github.io/vue-i18n/guide/formatting.html#custom-formatting">https://kazupon.github.io/vue-i18n/guide/formatting.html#custom-formatting</a></li><li><a href="https://juejin.cn/post/6958609646013644836">https://juejin.cn/post/6958609646013644836</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> 国际化 </tag>
+            
+            <tag> Vue I18n </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mongoose Aggregate 查询过去一周数据</title>
       <link href="Mongoose-Aggregate-%E6%9F%A5%E8%AF%A2%E8%BF%87%E5%8E%BB%E4%B8%80%E5%91%A8%E6%95%B0%E6%8D%AE/"/>
       <url>Mongoose-Aggregate-%E6%9F%A5%E8%AF%A2%E8%BF%87%E5%8E%BB%E4%B8%80%E5%91%A8%E6%95%B0%E6%8D%AE/</url>
