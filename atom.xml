@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-07-24T14:02:59.000Z</updated>
+  <updated>2021-08-02T16:00:00.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>通过局域网在手机浏览器上访问电脑开发的应用</title>
+    <link href="http://mightyherox.me/%E9%80%9A%E8%BF%87%E5%B1%80%E5%9F%9F%E7%BD%91%E5%9C%A8%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E8%AE%BF%E9%97%AE%E7%94%B5%E8%84%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+    <id>http://mightyherox.me/%E9%80%9A%E8%BF%87%E5%B1%80%E5%9F%9F%E7%BD%91%E5%9C%A8%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E8%AE%BF%E9%97%AE%E7%94%B5%E8%84%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8/</id>
+    <published>2021-08-02T16:00:00.000Z</published>
+    <updated>2021-08-02T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;今天在开发过程中遇到一个 bug 是在某台手机自带的浏览器上出现的。我们前端开发的好朋友 Chrome</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="局域网" scheme="http://mightyherox.me/tags/%E5%B1%80%E5%9F%9F%E7%BD%91/"/>
+    
+    <category term="debug" scheme="http://mightyherox.me/tags/debug/"/>
+    
+  </entry>
   
   <entry>
     <title>Nuxt 项目如何配置 nuxt-i18n</title>
@@ -587,41 +614,6 @@
     <category term="备份" scheme="http://mightyherox.me/tags/%E5%A4%87%E4%BB%BD/"/>
     
     <category term="共享" scheme="http://mightyherox.me/tags/%E5%85%B1%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to use simple global store and axios in Vue project</title>
-    <link href="http://mightyherox.me/How-to-use-simple-global-store-and-axios-in-Vue-project/"/>
-    <id>http://mightyherox.me/How-to-use-simple-global-store-and-axios-in-Vue-project/</id>
-    <published>2020-10-26T02:29:45.000Z</published>
-    <updated>2020-10-26T02:29:45.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="http://mightyherox.me/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="Vue" scheme="http://mightyherox.me/tags/Vue/"/>
-    
-    <category term="font-end" scheme="http://mightyherox.me/tags/font-end/"/>
-    
-    <category term="simple global store" scheme="http://mightyherox.me/tags/simple-global-store/"/>
-    
-    <category term="axios" scheme="http://mightyherox.me/tags/axios/"/>
-    
-    <category term="store pattern" scheme="http://mightyherox.me/tags/store-pattern/"/>
-    
-    <category term="store.js" scheme="http://mightyherox.me/tags/store-js/"/>
     
   </entry>
   

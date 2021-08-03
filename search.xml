@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>通过局域网在手机浏览器上访问电脑开发的应用</title>
+      <link href="%E9%80%9A%E8%BF%87%E5%B1%80%E5%9F%9F%E7%BD%91%E5%9C%A8%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E8%AE%BF%E9%97%AE%E7%94%B5%E8%84%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+      <url>%E9%80%9A%E8%BF%87%E5%B1%80%E5%9F%9F%E7%BD%91%E5%9C%A8%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E8%AE%BF%E9%97%AE%E7%94%B5%E8%84%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>今天在开发过程中遇到一个 bug 是在某台手机自带的浏览器上出现的。我们前端开发的好朋友 Chrome 开发者工具虽然可以模拟手机进行调试，但是这台机型比较小众，在尝试添加它的 user agent 仍无法复现 bug 的情况下，部门大佬让我通过局域网进行访问。以下记录操作过程：</p><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>PC: MacBook Pro</p><p>Mobile: OnePlus 3T</p><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>首先确保两台设备在同一局域网中，笔者两台电脑都连接着同一 WiFi。接着在 PC 端打开终端，如 iTerm2，输入 <code>ifconfig</code> 。查找 <strong>en0</strong> 或 <strong>en1</strong>，然后在该条目下查找 <strong>inet</strong> 关键字，会出现类似 <em>192.168.1.100</em> 这样的地址，这就是 PC 的局域网地址。</p><p>然后在 Mobile 上通过浏览器访问 <em>192.168.1.100:3000</em> （此处应用运行的端口是3000）就可以访问我们的应用了。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这个方法只能用来检查页面效果，不能真正做到 debug。但因为 bug 只在特定的浏览器上出现，debug 的途径没几个，所以只能通过这种方式来检查效果了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 局域网 </tag>
+            
+            <tag> debug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Nuxt 项目如何配置 nuxt-i18n</title>
       <link href="Nuxt-%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE-nuxt-i18n/"/>
       <url>Nuxt-%E9%A1%B9%E7%9B%AE%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE-nuxt-i18n/</url>
