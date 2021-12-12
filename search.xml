@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>以太坊-合约交互</title>
+      <link href="%E4%BB%A5%E5%A4%AA%E5%9D%8A-%E5%90%88%E7%BA%A6%E4%BA%A4%E4%BA%92/"/>
+      <url>%E4%BB%A5%E5%A4%AA%E5%9D%8A-%E5%90%88%E7%BA%A6%E4%BA%A4%E4%BA%92/</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>前不久参与开发一个 DApp，此前并没有这方面的经验，给自己加了许多假想的困难。但是开发完这个 DApp 后，发现并没有想象中的困难。<br>这个 DAPP 主要是与合约（Smart Contract）进行交互，关于合约的介绍留待以后再补充，本文主要介绍如何使用 <a href="https://github.com/ethers-io/ethers.js/">ethers.js</a> 与合约进行交互。</p><h2 id="获取地址"><a href="#获取地址" class="headerlink" title="获取地址"></a>获取地址</h2><p>DApp 要想正常使用，首先要获取用户的地址。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">const provider &#x3D; new ethers.providers.Web3Provider(window.ethereum)</span><br><span class="line">const signer &#x3D; provider.getSigner()</span><br><span class="line">return await signer.getAddress()</span><br></pre></td></tr></table></figure><h2 id="合约交互"><a href="#合约交互" class="headerlink" title="合约交互"></a>合约交互</h2><p>我们以领取 ENS 代币为例，合约地址为：<code>0xc18360217d8f7ab5e7c516566761ea12ce7f9d72</code>，ABI：<a href="https://etherscan.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72#code%E3%80%82%E5%85%B3%E4%BA%8E">https://etherscan.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72#code。关于</a> ABI ，你可以想象它是我们平常使用的 API。</p><p>执行 ABI 中 <strong>claimTokens</strong> 方法即可领取 ENS 代币：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;\*\*</span><br><span class="line"></span><br><span class="line">- @dev Claims airdropped tokens.</span><br><span class="line">- @param amount The amount of the claim being made.</span><br><span class="line">- @param delegate The address the tokenholder wants to delegate their votes to.</span><br><span class="line">- @param merkleProof A merkle proof proving the claim is valid.</span><br><span class="line">\*&#x2F;</span><br><span class="line">function claimTokens(uint256 amount, address delegate, bytes32[] calldata merkleProof)</span><br></pre></td></tr></table></figure><p>首先是使用 ethers.js 组装 data 数据：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; ABI 编码只需要函数声明部分，不用整个实现，而且是传入字符串就好</span><br><span class="line">const ABI &#x3D; [&#39;function claimTokens(uint256 amount, address delegate, bytes32[] calldata merkleProof)&#39;]</span><br><span class="line">const iface &#x3D; new ethers.utils.Interface(ABI);</span><br><span class="line">const data &#x3D; iface.encodeFunctionData(&#39;claimTokens&#39;, [amount, delegate, merkleProof])</span><br></pre></td></tr></table></figure><p>接着发送交易：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">const params &#x3D; [</span><br><span class="line">    &#123;</span><br><span class="line">    from,</span><br><span class="line">    to,</span><br><span class="line">    value: &#39;0x0&#39;,</span><br><span class="line">    data,</span><br><span class="line">    &#125;,</span><br><span class="line">    ]</span><br><span class="line">ethereum</span><br><span class="line">    .request(&#123;</span><br><span class="line">        method: &#39;eth_sendTransaction&#39;,</span><br><span class="line">        params,</span><br><span class="line">    &#125;)</span><br><span class="line">    .then((txHash: string) &#x3D;&gt; &#123;</span><br><span class="line">    alert(txHash)</span><br><span class="line">    &#125;)</span><br><span class="line">    .catch((err) &#x3D;&gt; console.log(err))</span><br></pre></td></tr></table></figure><p>ABI 中也提供了方法判断领取状态</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">function isClaimed(uint256 index) public view returns (bool)</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">const provider &#x3D; new ethers.providers.Web3Provider(window.ethereum)</span><br><span class="line">const erc20 &#x3D; new ethers.Contract(to, ABI, provider)</span><br><span class="line">const index &#x3D; getMerkleTreeIndex(address, balance, proof)</span><br><span class="line">const isClaimed &#x3D; await erc20.isClaimed(index)</span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>DApp 与合约进行交互主要是通过 ABI 实现，而现在也有许多封装好的第三方库帮助我们方便地使用。Web3 这个领域许多代码都是开源的，遇到问题不用愁，看看别人是如何实现的，说不定就有思路了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Web3 </tag>
+            
+            <tag> Ethereum </tag>
+            
+            <tag> DApp </tag>
+            
+            <tag> ABI </tag>
+            
+            <tag> Smart Contract </tag>
+            
+            <tag> Crypto </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>通过局域网在手机浏览器上访问电脑开发的应用</title>
       <link href="%E9%80%9A%E8%BF%87%E5%B1%80%E5%9F%9F%E7%BD%91%E5%9C%A8%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E8%AE%BF%E9%97%AE%E7%94%B5%E8%84%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8/"/>
       <url>%E9%80%9A%E8%BF%87%E5%B1%80%E5%9F%9F%E7%BD%91%E5%9C%A8%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E8%AE%BF%E9%97%AE%E7%94%B5%E8%84%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8/</url>
@@ -1100,11 +1135,11 @@
             
             <tag> Bilibili </tag>
             
+            <tag> JSZip </tag>
+            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
-            
-            <tag> JSZip </tag>
             
         </tags>
       
@@ -1131,11 +1166,11 @@
             
             <tag> Bilibili </tag>
             
-            <tag> html2canvas </tag>
-            
             <tag> Front-end </tag>
             
             <tag> 前端 </tag>
+            
+            <tag> html2canvas </tag>
             
             <tag> Vue </tag>
             

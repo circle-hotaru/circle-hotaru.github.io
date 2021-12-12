@@ -6,7 +6,7 @@
   <link href="http://mightyherox.me/atom.xml" rel="self"/>
   
   <link href="http://mightyherox.me/"/>
-  <updated>2021-08-02T16:00:00.000Z</updated>
+  <updated>2021-12-12T09:43:41.000Z</updated>
   <id>http://mightyherox.me/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>以太坊-合约交互</title>
+    <link href="http://mightyherox.me/%E4%BB%A5%E5%A4%AA%E5%9D%8A-%E5%90%88%E7%BA%A6%E4%BA%A4%E4%BA%92/"/>
+    <id>http://mightyherox.me/%E4%BB%A5%E5%A4%AA%E5%9D%8A-%E5%90%88%E7%BA%A6%E4%BA%A4%E4%BA%92/</id>
+    <published>2021-12-12T09:43:41.000Z</published>
+    <updated>2021-12-12T09:43:41.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;前不久参与开发一个 DApp，此前并没有这方面的经验，给自己加了许多假想的困难。但是开发完这个 DApp</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://mightyherox.me/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="Web3" scheme="http://mightyherox.me/tags/Web3/"/>
+    
+    <category term="Ethereum" scheme="http://mightyherox.me/tags/Ethereum/"/>
+    
+    <category term="DApp" scheme="http://mightyherox.me/tags/DApp/"/>
+    
+    <category term="ABI" scheme="http://mightyherox.me/tags/ABI/"/>
+    
+    <category term="Smart Contract" scheme="http://mightyherox.me/tags/Smart-Contract/"/>
+    
+    <category term="Crypto" scheme="http://mightyherox.me/tags/Crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>通过局域网在手机浏览器上访问电脑开发的应用</title>
@@ -577,43 +612,6 @@
     <category term="github" scheme="http://mightyherox.me/tags/github/"/>
     
     <category term="镜像" scheme="http://mightyherox.me/tags/%E9%95%9C%E5%83%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的云端生活</title>
-    <link href="http://mightyherox.me/%E6%88%91%E7%9A%84%E4%BA%91%E7%AB%AF%E7%94%9F%E6%B4%BB/"/>
-    <id>http://mightyherox.me/%E6%88%91%E7%9A%84%E4%BA%91%E7%AB%AF%E7%94%9F%E6%B4%BB/</id>
-    <published>2020-11-13T01:59:42.000Z</published>
-    <updated>2020-11-13T01:59:42.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="http://mightyherox.me/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="效率" scheme="http://mightyherox.me/tags/%E6%95%88%E7%8E%87/"/>
-    
-    <category term="云平台" scheme="http://mightyherox.me/tags/%E4%BA%91%E5%B9%B3%E5%8F%B0/"/>
-    
-    <category term="OneDrive" scheme="http://mightyherox.me/tags/OneDrive/"/>
-    
-    <category term="跨平台协作" scheme="http://mightyherox.me/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%8D%8F%E4%BD%9C/"/>
-    
-    <category term="Windows 10" scheme="http://mightyherox.me/tags/Windows-10/"/>
-    
-    <category term="备份" scheme="http://mightyherox.me/tags/%E5%A4%87%E4%BB%BD/"/>
-    
-    <category term="共享" scheme="http://mightyherox.me/tags/%E5%85%B1%E4%BA%AB/"/>
     
   </entry>
   
