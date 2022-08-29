@@ -6,7 +6,7 @@
   <link href="https://www.circlehotarux.me/atom.xml" rel="self"/>
   
   <link href="https://www.circlehotarux.me/"/>
-  <updated>2021-12-12T09:43:41.000Z</updated>
+  <updated>2022-08-29T09:03:37.000Z</updated>
   <id>https://www.circlehotarux.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端开发者的 SEO 指南</title>
+    <link href="https://www.circlehotarux.me/SEO-Guide-for-Front-End-Developers/"/>
+    <id>https://www.circlehotarux.me/SEO-Guide-for-Front-End-Developers/</id>
+    <published>2022-08-29T09:03:37.000Z</published>
+    <updated>2022-08-29T09:03:37.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在做些 SEO 优化，在这里记录下。SEO 的目标是提高网站在搜索引擎结果中的排名位置，以 &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SEO" scheme="https://www.circlehotarux.me/tags/SEO/"/>
+    
+    <category term="Front-End" scheme="https://www.circlehotarux.me/tags/Front-End/"/>
+    
+    <category term="Google" scheme="https://www.circlehotarux.me/tags/Google/"/>
+    
+  </entry>
   
   <entry>
     <title>以太坊-合约交互</title>
@@ -585,33 +612,6 @@
     <category term="云开发" scheme="https://www.circlehotarux.me/tags/%E4%BA%91%E5%BC%80%E5%8F%91/"/>
     
     <category term="Node.js" scheme="https://www.circlehotarux.me/tags/Node-js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>github镜像站</title>
-    <link href="https://www.circlehotarux.me/github%E9%95%9C%E5%83%8F%E7%AB%99/"/>
-    <id>https://www.circlehotarux.me/github%E9%95%9C%E5%83%8F%E7%AB%99/</id>
-    <published>2020-11-19T01:13:38.000Z</published>
-    <updated>2020-11-19T01:13:38.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="编程" scheme="https://www.circlehotarux.me/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="github" scheme="https://www.circlehotarux.me/tags/github/"/>
-    
-    <category term="镜像" scheme="https://www.circlehotarux.me/tags/%E9%95%9C%E5%83%8F/"/>
     
   </entry>
   
