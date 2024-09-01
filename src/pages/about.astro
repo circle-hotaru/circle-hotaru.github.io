@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About Me"
+	description="about me"
+	pubDate={new Date('September 01 2024')}
+	heroImage="/blog-placeholder-about.jpg"
+>
+	<p>
+		Hey there 👋, I'm incircle! a front-end developer from China.
+	</p>
+	<ul>
+		<li>💬 Ask me about anything, I am happy to help</li>
+		<li>📫 How to reach me: <a href="mailto:circlehotarux@gmail.com">circlehotarux@gmail.com</a></li>
+	</ul>
+</Layout>
+
+<style>
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+</style>
