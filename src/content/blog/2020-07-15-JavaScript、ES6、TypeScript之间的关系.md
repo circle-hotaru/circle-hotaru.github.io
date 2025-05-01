@@ -2,7 +2,7 @@
 title: 'JavaScript、ES6、TypeScript之间的关系'
 description: '探讨JavaScript、ES6、TypeScript之间的关系,解释ES6是JavaScript的一个版本,TypeScript是JavaScript的超集,并介绍TypeScript的安装和使用方法。'
 pubDate: 'Jul 15 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 > 今天复习前端三剑客之**JavaScript**。

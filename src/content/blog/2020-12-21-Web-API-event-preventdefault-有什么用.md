@@ -2,7 +2,7 @@
 title: 'Web API：event.preventdefault() 有什么用？'
 description: '介绍event.preventdefault()的作用，并提供详细的操作步骤。'
 pubDate: 'Dec 21 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 今天阅读某个项目源码时候遇到了 `event.preventdefault()` 这行代码。之前有遇到过几次，也去 MDN 查看了它的[介绍](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/preventDefault)，但还是不太理解它的实际应用场景。直到今天看到这部分源码才恍然大悟。

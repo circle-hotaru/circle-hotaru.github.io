@@ -2,7 +2,7 @@
 title: '如何在DigitalOcean创建你的第一台VPS'
 description: '详细指导如何在DigitalOcean上创建和设置第一个Linux虚拟专用服务器(VPS),包括账号注册、项目创建和Droplet配置。'
 pubDate: 'Aug 20 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 在本文中，我将指导您完成在 DigitalOcean 上设置第一个 Linux 虚拟专用服务器（VPS）的过程。

@@ -2,7 +2,7 @@
 title: '使用code-server打造你的云端VS Code'
 description: '介绍如何使用code-server在浏览器上运行VS Code，并提供详细的操作步骤。'
 pubDate: 'Nov 29 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 最近外出学习老是要背着个电脑还挺累的，但是我又需要电脑进行编程。有没有什么方法可以让我只需携带 iPad 外出同时又能进行编程呢？

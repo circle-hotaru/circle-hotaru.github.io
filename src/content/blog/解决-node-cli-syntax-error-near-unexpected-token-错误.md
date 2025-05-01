@@ -2,7 +2,7 @@
 title: 解决 Node CLI syntax error near unexpected token `( 错误
 description: 解决 Node CLI syntax error near unexpected token `( 错误
 pubDate: 'Feb 10 2021'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 ## 前言

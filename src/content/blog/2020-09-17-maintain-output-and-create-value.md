@@ -2,7 +2,7 @@
 title: 'maintain output and create value'
 description: '探讨保持输出和创造价值的重要性,以及如何通过持续输出来提升个人影响力。'
 pubDate: 'Sep 17 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 今天下午一个师弟说他的老师在班上提到我了，并展示了我的 Github。后来了解到是因为疫情期间我关注了他的码云&B 站账号，然后他也发现了我的 Github 账号。可能是因为惠院玩 Github 的学生太少了吧（问了几个大三师弟都对 Github 没什么概念），所以给他留下了比较深刻的印象？

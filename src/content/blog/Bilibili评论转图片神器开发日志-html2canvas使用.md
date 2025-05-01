@@ -2,7 +2,7 @@
 title: 'Bilibili 评论转图片神器开发日志-html2canvas 使用'
 description: '分享在开发Bilibili评论转图片工具时使用html2canvas库的经验,包括解决跨域图片和窗口滚动问题。'
 pubDate: 'Jul 11 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 > 最近在开发[Bilibili 评论转图片神器](tool.mightyherox.me)，功能是将 Bilibili 视频评论区的评论转换成 PNG 图片。

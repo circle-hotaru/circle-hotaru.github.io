@@ -2,7 +2,7 @@
 title: 'How to use simple global store and axios in Vue project'
 description: '介绍如何在Vue项目中使用简单的全局状态管理（store）和axios，并提供详细的操作步骤。'
 pubDate: 'Oct 26 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 ## 引言

@@ -2,7 +2,7 @@
 title: '如何使用CORS代理解决“No Access-Control-Allow-Origin header”问题'
 description: '介绍如何使用CORS代理解决跨域问题,并提供详细的操作步骤。'
 pubDate: 'Oct 21 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 ## 引言

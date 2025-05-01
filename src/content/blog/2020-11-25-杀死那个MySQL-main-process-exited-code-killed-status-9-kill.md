@@ -2,7 +2,7 @@
 title: '杀死那个MySQL-main process exited code=killed status=9/kill'
 description: '分析并解决MySQL服务因系统内存不足而无法启动的问题,包括问题定位和解决方案。'
 pubDate: 'Nov 25 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 ## 引言

@@ -2,7 +2,7 @@
 title: 'Mongoose Aggregate 查询过去一周数据'
 description: '介绍如何使用Mongoose Aggregate查询过去一周数据,并提供详细的操作步骤。'
 pubDate: 'May 11 2021'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 ## 需求

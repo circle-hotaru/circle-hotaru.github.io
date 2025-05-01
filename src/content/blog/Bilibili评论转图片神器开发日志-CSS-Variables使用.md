@@ -2,7 +2,7 @@
 title: 'Bilibili评论转图片神器开发日志-CSS Variables使用'
 description: '介绍如何使用CSS Variables来实现Bilibili评论转图片神器开发过程中遇到的跨域问题,并提供详细的操作步骤。'
 pubDate: 'Jul 12 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 > 最近在开发[Bilibili 评论转图片神器](tool.mightyherox.me)，功能是将 Bilibili 视频评论区的评论转换成 PNG 图片。

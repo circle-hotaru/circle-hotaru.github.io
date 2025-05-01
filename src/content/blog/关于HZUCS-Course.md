@@ -2,7 +2,7 @@
 title: '关于HZUCS_Course'
 description: '介绍在GitHub上新开的HZUCS_Course仓库,用于分享课程资料和作业,促进学习交流和开源精神。'
 pubDate: 'May 14 2020'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder.png'
 ---
 
 github 上新开了一个仓库，主要用来分享一些课程资料、作业等学生原创内容。
