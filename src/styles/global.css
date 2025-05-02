@@ -6,8 +6,7 @@
 
 :root {
   --bg: #fcf9eb;
-  --accent: #2337ff;
-  --accent-dark: #000d8a;
+  --accent: #3576b8;
   --black: #2c2c2c;
   --gray: 96, 115, 159;
   --gray-light: 229, 233, 240;
@@ -56,7 +55,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 0.5rem 0;
-  color: rgb(var(--black));
+  color: var(--black);
   line-height: 1.2;
 }
 h1 {
@@ -86,7 +85,7 @@ a:hover {
 }
 p {
   color: var(--black);
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 1em;
 }
 .prose p {
