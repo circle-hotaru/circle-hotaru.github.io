@@ -1,126 +1,141 @@
 ---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+
 const projects = [
-    {
-        title: "Talk Boost",
-        description: "Talk Boost 是一个利用 AI 来帮助你提高英语口语交流能力的网页应用",
-        icon: "/project-talk-boost.png",
-        websiteUrl: "https://talk.incircle.dev",
-        githubUrl: "https://github.com/circle-hotaru/talk-boost-ai"
-    },
-    {
-        title: "AI 塔罗占卜",
-        description: "🔮 AI 塔罗占卜 by ChatGPT",
-        icon: "/project-tarot-master.ico",
-        websiteUrl: "https://tarot.incircle.dev",
-        githubUrl: "https://github.com/circle-hotaru/tarot-master"
-    },
-    {
-        title: "Bilibili 评论转图片神器",
-        description: "供Bilibili UP主与观众互动，将Bilibili 视频评论区的评论转换成 PNG，应用场景如：呈现观众评论、评论互动、频道 Q&A",
-        icon: "/project-bilibili-comment-2-png.ico",
-        websiteUrl: "https://bilibili.incircle.dev",
-        githubUrl: "https://github.com/circle-hotaru/bilibili-comment2png"
-    }
-]
+  {
+    title: "Talk Boost",
+    description:
+      "Talk Boost 是一个利用 AI 来帮助你提高英语口语交流能力的网页应用",
+    icon: "/project-talk-boost.png",
+    websiteUrl: "https://talk.incircle.dev",
+    githubUrl: "https://github.com/circle-hotaru/talk-boost-ai",
+  },
+  {
+    title: "AI 塔罗占卜",
+    description: "🔮 AI 塔罗占卜 by ChatGPT",
+    icon: "/project-tarot-master.ico",
+    websiteUrl: "https://tarot.incircle.dev",
+    githubUrl: "https://github.com/circle-hotaru/tarot-master",
+  },
+  {
+    title: "Bilibili 评论转图片神器",
+    description:
+      "供Bilibili UP主与观众互动，将Bilibili 视频评论区的评论转换成 PNG，应用场景如：呈现观众评论、评论互动、频道 Q&A",
+    icon: "/project-bilibili-comment-2-png.ico",
+    websiteUrl: "https://bilibili.incircle.dev",
+    githubUrl: "https://github.com/circle-hotaru/bilibili-comment2png",
+  },
+];
 ---
 
+<!doctype html>
 <html lang="zh">
   <head>
-    <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>incircle's projects</title>
-      <meta name="description" content="incircle's projects" />
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
-    <div class="container">
-      <header>
-          <h1>incircle 做过的一些项目</h1>
-      </header>
-      
+    <Header />
+    <main class="container">
+      <h1>项目</h1>
+      <p>我所做过的一些个人开源项目。</p>
       <div class="projects-grid">
-        {projects.map((project) => (
+        {
+          projects.map((project) => (
             <div class="project">
-                <div class="project-content">
-                    <img src={project.icon} alt={project.title} class="project-icon" />
-                    <h2>{project.title}</h2>
-                    <p>{project.description}</p>
-                    <div class="project-links">
-                        {project.websiteUrl && <a href={project.websiteUrl} class="project-link" target="_blank">{new URL(project.websiteUrl).hostname}</a>}
-                        {project.githubUrl && <a href={project.githubUrl} class="project-link" target="_blank">GitHub</a>}
-                    </div>
+              <div class="project-content">
+                <img
+                  src={project.icon}
+                  alt={project.title}
+                  class="project-icon"
+                />
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <div class="project-links">
+                  {project.websiteUrl && (
+                    <a
+                      href={project.websiteUrl}
+                      class="project-link"
+                      target="_blank"
+                    >
+                      {new URL(project.websiteUrl).hostname}
+                    </a>
+                  )}
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      class="project-link"
+                      target="_blank"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
+              </div>
             </div>
-        ))}
+          ))
+        }
       </div>
-    </div>
+    </main>
+    <Footer />
   </body>
 </html>
 
 <style>
-    body {
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        background-color: #1a1a1a;
-        color: #e0e0e0;
-    }
-    .container {
-        max-width: 1200px;
-        margin: 40px auto;
-        padding: 20px;
-    }
-    header {
-        margin-bottom: 40px;
-    }
-    h1 {
-        color: #ffffff;
-        font-size: 2.5em;
-        margin-bottom: 10px;
-    }
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-    }
-    .project {
-        background-color: #2a2a2a;
-        border-radius: 10px;
-        overflow: hidden;
-        transition: all 0.3s ease;
-    }
-    .project:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    }
-    .project-icon {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        margin-bottom: 15px;
-    }
-    .project-content {
-        padding: 20px;
-    }
-    .project h2 {
-        color: #ffffff;
-        font-size: 1.2em;
-        margin-top: 0;
-    }
-    .project p {
-        color: #b0b0b0;
-        font-size: 0.9em;
-        margin-bottom: 15px;
-    }
-    .project-links {
-        display: flex;
-        gap: 10px;
-    }
-    .project-link {
-        color: #4a9eff;
-        text-decoration: none;
-        font-size: 0.9em;
-    }
-    .project-link:hover {
-        text-decoration: underline;
-    }
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  header {
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .project {
+    background: #fbf6df;
+    border: 1px solid #eee8d5;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .project-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .project-content {
+    padding: 20px;
+  }
+  .project h3 {
+    color: #3576b8;
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  .project-links {
+    display: flex;
+    gap: 10px;
+  }
+  .project-link {
+    color: #3576b8;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  .project-link:hover {
+    text-decoration: underline;
+  }
 </style>
