@@ -1,25 +1,27 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 ---
 
-<Layout
-	title="About Me"
-	description="about me"
-	pubDate={new Date('September 01 2024')}
-	heroImage="/blog-placeholder.png"
->
-	<p>
-		Hey there 👋, I'm incircle! a front-end developer from China.
-	</p>
-	<ul>
-		<li>💬 Ask me about anything, I am happy to help</li>
-		<li>📫 How to reach me: <a href="mailto:circlehotarux@gmail.com">circlehotarux@gmail.com</a></li>
-	</ul>
-</Layout>
-
-<style>
-	ul {
-		list-style-type: none;
-		padding-left: 0;
-	}
-</style>
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <BaseHead title="关于我" description="关于我" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <p>
+        👋你好, 我是
+        incircle！一名前端开发工程师、开源创作者。在区块链行业工作，最近也在关注
+        AI 的使用。
+      </p>
+      <p>
+        可以通过 <a href="mailto:incircledev@gmail.com">incircledev@gmail.com</a
+        > 与我联系。
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>

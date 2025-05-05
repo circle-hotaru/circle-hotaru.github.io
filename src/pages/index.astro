@@ -1,24 +1,24 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<p>
-				Hey there 👋
-				<br />
-				I'm incircle! a front-end developer from China.
-			</p>
-		</main>
-		<Footer />
-	</body>
+<html lang="zh-Hans">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <p>👋你好, 我是 incircle！</p>
+      <p>
+        一名前端开发工程师、开源创作者。在区块链行业工作，最近也在关注 AI
+        的使用。
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
