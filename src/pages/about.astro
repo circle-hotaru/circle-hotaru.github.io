@@ -10,18 +10,37 @@ import Footer from "../components/Footer.astro";
     <BaseHead title="关于我" description="关于我" />
   </head>
   <body>
-    <Header />
-    <main>
-      <p>
-        👋你好, 我是
-        incircle！一名前端开发工程师、开源创作者。在区块链行业工作，最近也在关注
-        AI 的使用。
-      </p>
-      <p>
-        可以通过 <a href="mailto:incircledev@gmail.com">incircledev@gmail.com</a
-        > 与我联系。
-      </p>
-    </main>
-    <Footer />
+    <div class="page-container">
+      <Header />
+      <main class="main-content">
+        <p>👋你好, 我是 incircle！</p>
+        <p>
+          一名前端开发工程师、开源创作者。在区块链行业工作，最近也在关注 AI 的使
+          <p>
+            可以通过 <a href="mailto:incircledev@gmail.com"
+              >incircledev@gmail.com</a
+            > 与我联系。
+          </p>
+        </p>
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>
+
+<style>
+  .page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+</style>

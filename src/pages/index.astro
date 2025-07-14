@@ -11,14 +11,33 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body>
-    <Header />
-    <main>
-      <p>👋你好, 我是 incircle！</p>
-      <p>
-        一名前端开发工程师、开源创作者。在区块链行业工作，最近也在关注 AI
-        的使用。
-      </p>
-    </main>
-    <Footer />
+    <div class="page-container">
+      <Header />
+      <main class="main-content">
+        <p>👋你好, 我是 incircle！</p>
+        <p>
+          一名前端开发工程师、开源创作者。在区块链行业工作，最近也在关注 AI
+          的使用。
+        </p>
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>
+
+<style>
+  .page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+</style>
