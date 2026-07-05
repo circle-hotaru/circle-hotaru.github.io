@@ -24,7 +24,7 @@ jobs:
         uses: withastro/action@v3
         with:
           # path: . # 存储库中 Astro 项目的根位置。（可选）
-          node-version: 18
+          node-version: 24
           # package-manager: pnpm@latest
 
   deploy:
